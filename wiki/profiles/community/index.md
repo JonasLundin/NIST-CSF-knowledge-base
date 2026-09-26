@@ -1,5 +1,5 @@
-# Glossary
+# Community Profiles
 
-Terms as defined in CSWP 29 and NIST IR 8477.
+Sector and use-case profiles published by NIST and others.
 
 No concepts yet. Pages added here follow the concept shape described in the repository's CONTRIBUTING.md.

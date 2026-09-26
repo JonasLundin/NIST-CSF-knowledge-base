@@ -1,5 +1,5 @@
-# Glossary
+# Organizational Profiles
 
-Terms as defined in CSWP 29 and NIST IR 8477.
+Current and Target Profiles, the profile template, action plans.
 
 No concepts yet. Pages added here follow the concept shape described in the repository's CONTRIBUTING.md.

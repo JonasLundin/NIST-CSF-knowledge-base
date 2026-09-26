@@ -1,5 +1,5 @@
-# Glossary
+# IEC 62443
 
-Terms as defined in CSWP 29 and NIST IR 8477.
+Subcategory to IEC 62443 requirement identifiers only.
 
 No concepts yet. Pages added here follow the concept shape described in the repository's CONTRIBUTING.md.

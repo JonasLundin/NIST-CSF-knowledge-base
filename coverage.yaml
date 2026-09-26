@@ -7,8 +7,18 @@ total_concepts: 0
 by_category: {}
 by_type: {}
 gates:
-  law_articles:
-    pattern: 'law/*/articles/article-*'
-    expected: null
+  functions:
+    pattern: framework/functions/*
+    expected: 6
+    actual: 0
+    status: pending
+  categories:
+    pattern: framework/categories/*
+    expected: 22
+    actual: 0
+    status: pending
+  subcategories:
+    pattern: framework/subcategories/*
+    expected: 106
     actual: 0
     status: pending
