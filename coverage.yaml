@@ -1,24 +1,36 @@
 version: 1
-release: 0.0.0
-baseline: '2026-09-26'
-coverage_status: planned
+release: 0.1.0
+baseline: '2026-09-27'
+coverage_status: complete
 review_status: unverified
-total_concepts: 0
-by_category: {}
-by_type: {}
+total_concepts: 152
+by_category:
+  glossary: 4
+  mapping: 4
+  outcome: 134
+  profile: 4
+  standard: 3
+  timeline: 3
+by_type:
+  Glossary: 4
+  Mapping: 4
+  Outcome: 134
+  Profile: 4
+  Standard: 3
+  Timeline: 3
 gates:
   functions:
     pattern: framework/functions/*
     expected: 6
-    actual: 0
-    status: pending
+    actual: 6
+    status: pass
   categories:
     pattern: framework/categories/*
     expected: 22
-    actual: 0
-    status: pending
+    actual: 22
+    status: pass
   subcategories:
     pattern: framework/subcategories/*
     expected: 106
-    actual: 0
-    status: pending
+    actual: 106
+    status: pass

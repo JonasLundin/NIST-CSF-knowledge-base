@@ -1,4 +1,195 @@
 version: 1
-checked_at: '2026-09-26T00:00:00Z'
-total_sources: 0
-sources: {}
+checked_at: '2026-09-27T00:00:00Z'
+total_sources: 5
+sources:
+  nist-cswp-29:
+    id: nist-cswp-29
+    resource: https://doi.org/10.6028/NIST.CSWP.29
+    title: The NIST Cybersecurity Framework (CSF) 2.0
+    author: National Institute of Standards and Technology (NIST)
+    last_modified: '2024-02-26T00:00:00Z'
+    used_by:
+    - crosswalks/eu-cra
+    - crosswalks/eu-nis2
+    - crosswalks/iec-62443
+    - crosswalks/iso-iec-27001
+    - framework/categories/de-ae
+    - framework/categories/de-cm
+    - framework/categories/gv-oc
+    - framework/categories/gv-ov
+    - framework/categories/gv-po
+    - framework/categories/gv-rm
+    - framework/categories/gv-rr
+    - framework/categories/gv-sc
+    - framework/categories/id-am
+    - framework/categories/id-im
+    - framework/categories/id-ra
+    - framework/categories/pr-aa
+    - framework/categories/pr-at
+    - framework/categories/pr-ds
+    - framework/categories/pr-ir
+    - framework/categories/pr-ps
+    - framework/categories/rc-co
+    - framework/categories/rc-rp
+    - framework/categories/rs-an
+    - framework/categories/rs-co
+    - framework/categories/rs-ma
+    - framework/categories/rs-mi
+    - framework/functions/detect
+    - framework/functions/govern
+    - framework/functions/identify
+    - framework/functions/protect
+    - framework/functions/recover
+    - framework/functions/respond
+    - framework/subcategories/de-ae-02
+    - framework/subcategories/de-ae-03
+    - framework/subcategories/de-ae-04
+    - framework/subcategories/de-ae-06
+    - framework/subcategories/de-ae-07
+    - framework/subcategories/de-ae-08
+    - framework/subcategories/de-cm-01
+    - framework/subcategories/de-cm-02
+    - framework/subcategories/de-cm-03
+    - framework/subcategories/de-cm-06
+    - framework/subcategories/de-cm-09
+    - framework/subcategories/gv-oc-01
+    - framework/subcategories/gv-oc-02
+    - framework/subcategories/gv-oc-03
+    - framework/subcategories/gv-oc-04
+    - framework/subcategories/gv-oc-05
+    - framework/subcategories/gv-ov-01
+    - framework/subcategories/gv-ov-02
+    - framework/subcategories/gv-ov-03
+    - framework/subcategories/gv-po-01
+    - framework/subcategories/gv-po-02
+    - framework/subcategories/gv-rm-01
+    - framework/subcategories/gv-rm-02
+    - framework/subcategories/gv-rm-03
+    - framework/subcategories/gv-rm-04
+    - framework/subcategories/gv-rm-05
+    - framework/subcategories/gv-rm-06
+    - framework/subcategories/gv-rm-07
+    - framework/subcategories/gv-rr-01
+    - framework/subcategories/gv-rr-02
+    - framework/subcategories/gv-rr-03
+    - framework/subcategories/gv-rr-04
+    - framework/subcategories/gv-sc-01
+    - framework/subcategories/gv-sc-02
+    - framework/subcategories/gv-sc-03
+    - framework/subcategories/gv-sc-04
+    - framework/subcategories/gv-sc-05
+    - framework/subcategories/gv-sc-06
+    - framework/subcategories/gv-sc-07
+    - framework/subcategories/gv-sc-08
+    - framework/subcategories/gv-sc-09
+    - framework/subcategories/gv-sc-10
+    - framework/subcategories/id-am-01
+    - framework/subcategories/id-am-02
+    - framework/subcategories/id-am-03
+    - framework/subcategories/id-am-04
+    - framework/subcategories/id-am-05
+    - framework/subcategories/id-am-07
+    - framework/subcategories/id-am-08
+    - framework/subcategories/id-im-01
+    - framework/subcategories/id-im-02
+    - framework/subcategories/id-im-03
+    - framework/subcategories/id-im-04
+    - framework/subcategories/id-ra-01
+    - framework/subcategories/id-ra-02
+    - framework/subcategories/id-ra-03
+    - framework/subcategories/id-ra-04
+    - framework/subcategories/id-ra-05
+    - framework/subcategories/id-ra-06
+    - framework/subcategories/id-ra-07
+    - framework/subcategories/id-ra-08
+    - framework/subcategories/id-ra-09
+    - framework/subcategories/id-ra-10
+    - framework/subcategories/pr-aa-01
+    - framework/subcategories/pr-aa-02
+    - framework/subcategories/pr-aa-03
+    - framework/subcategories/pr-aa-04
+    - framework/subcategories/pr-aa-05
+    - framework/subcategories/pr-aa-06
+    - framework/subcategories/pr-at-01
+    - framework/subcategories/pr-at-02
+    - framework/subcategories/pr-ds-01
+    - framework/subcategories/pr-ds-02
+    - framework/subcategories/pr-ds-10
+    - framework/subcategories/pr-ds-11
+    - framework/subcategories/pr-ir-01
+    - framework/subcategories/pr-ir-02
+    - framework/subcategories/pr-ir-03
+    - framework/subcategories/pr-ir-04
+    - framework/subcategories/pr-ps-01
+    - framework/subcategories/pr-ps-02
+    - framework/subcategories/pr-ps-03
+    - framework/subcategories/pr-ps-04
+    - framework/subcategories/pr-ps-05
+    - framework/subcategories/pr-ps-06
+    - framework/subcategories/rc-co-03
+    - framework/subcategories/rc-co-04
+    - framework/subcategories/rc-rp-01
+    - framework/subcategories/rc-rp-02
+    - framework/subcategories/rc-rp-03
+    - framework/subcategories/rc-rp-04
+    - framework/subcategories/rc-rp-05
+    - framework/subcategories/rc-rp-06
+    - framework/subcategories/rs-an-03
+    - framework/subcategories/rs-an-06
+    - framework/subcategories/rs-an-07
+    - framework/subcategories/rs-an-08
+    - framework/subcategories/rs-co-02
+    - framework/subcategories/rs-co-03
+    - framework/subcategories/rs-ma-01
+    - framework/subcategories/rs-ma-02
+    - framework/subcategories/rs-ma-03
+    - framework/subcategories/rs-ma-04
+    - framework/subcategories/rs-ma-05
+    - framework/subcategories/rs-mi-01
+    - framework/subcategories/rs-mi-02
+    - glossary/community-profile
+    - glossary/cybersecurity-risk
+    - glossary/implementation-tier
+    - glossary/organizational-profile
+    - informative-references/cis-controls-v8
+    - informative-references/iso-iec-27001-2022
+    - informative-references/sp-800-53-r5
+    - profiles/tiers/tier-1-partial
+    - profiles/tiers/tier-2-risk-informed
+    - profiles/tiers/tier-3-repeatable
+    - profiles/tiers/tier-4-adaptive
+    - timeline/csf-1-1-publication
+    - timeline/csf-2-0-publication
+    - timeline/eo-13636
+  nist-sp-800-53-r5:
+    id: nist-sp-800-53-r5
+    resource: https://doi.org/10.6028/NIST.SP.800-53r5
+    title: Security and Privacy Controls for Information Systems and Organizations
+    author: National Institute of Standards and Technology (NIST)
+    last_modified: '2020-09-01T00:00:00Z'
+    used_by:
+    - informative-references/sp-800-53-r5
+  iso-iec-27001-2022:
+    id: iso-iec-27001-2022
+    resource: https://www.iso.org/standard/27001
+    title: ISO/IEC 27001:2022 Information security, cybersecurity and privacy protection
+    author: International Organization for Standardization (ISO) / IEC
+    last_modified: '2022-10-25T00:00:00Z'
+    used_by:
+    - informative-references/iso-iec-27001-2022
+  cis-controls-v8:
+    id: cis-controls-v8
+    resource: https://www.cisecurity.org/controls/v8
+    title: Center for Internet Security (CIS) Controls Version 8
+    author: Center for Internet Security
+    last_modified: '2021-05-18T00:00:00Z'
+    used_by:
+    - informative-references/cis-controls-v8
+  eo-13636:
+    id: eo-13636
+    resource: https://www.federalregister.gov/documents/2013/02/19/2013-03725/improving-critical-infrastructure-cybersecurity
+    title: 'Executive Order 13636: Improving Critical Infrastructure Cybersecurity'
+    author: Executive Office of the President of the United States
+    last_modified: '2013-02-12T00:00:00Z'
+    used_by:
+    - timeline/eo-13636
