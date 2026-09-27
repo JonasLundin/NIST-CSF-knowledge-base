@@ -2,4 +2,6 @@
 
 Subcategory to clause and Annex A control identifiers only.
 
-No concepts yet. Pages added here follow the concept shape described in the repository's CONTRIBUTING.md.
+## Concepts
+
+- [ISO/IEC 27001:2022 Crosswalk](iso-iec-27001-mapping.md) — Harmonization between CSF 2.0 Functions and ISO/IEC 27001:2022 Annex A control domains.

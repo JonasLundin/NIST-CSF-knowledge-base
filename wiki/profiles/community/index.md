@@ -2,4 +2,6 @@
 
 Sector and use-case profiles published by NIST and others.
 
-No concepts yet. Pages added here follow the concept shape described in the repository's CONTRIBUTING.md.
+## Concepts
+
+- [Developing and Using Community Profiles](community-profiles-development.md) — Baseline profiles developed for specific sectors, subsectors, technologies, or challenges by industry consortia or government agencies.

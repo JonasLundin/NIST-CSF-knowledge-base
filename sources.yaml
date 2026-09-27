@@ -9,10 +9,10 @@ sources:
     author: National Institute of Standards and Technology (NIST)
     last_modified: '2024-02-26T00:00:00Z'
     used_by:
-    - crosswalks/eu-cra
-    - crosswalks/eu-nis2
-    - crosswalks/iec-62443
-    - crosswalks/iso-iec-27001
+    - crosswalks/eu-cra/eu-cra-mapping
+    - crosswalks/eu-nis2/eu-nis2-mapping
+    - crosswalks/iec-62443/iec-62443-mapping
+    - crosswalks/iso-iec-27001/iso-iec-27001-mapping
     - framework/categories/de-ae
     - framework/categories/de-cm
     - framework/categories/gv-oc

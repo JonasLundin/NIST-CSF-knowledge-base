@@ -2,4 +2,6 @@
 
 Current and Target Profiles, the profile template, action plans.
 
-No concepts yet. Pages added here follow the concept shape described in the repository's CONTRIBUTING.md.
+## Concepts
+
+- [Creating and Using Organizational Profiles](creating-organizational-profiles.md) — Methodology for developing Current State and Target State profiles to customize CSF outcomes to organizational risk appetite and requirements.
