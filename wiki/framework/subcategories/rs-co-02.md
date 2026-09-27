@@ -12,7 +12,7 @@ tags:
 - csf-2-0
 status: draft
 generated:
-  by: agent:antigravity
+  by: manual-curation
   at: '2026-09-27T00:00:00Z'
 stale_after: '2027-12-31T00:00:00Z'
 sources:
@@ -29,6 +29,7 @@ x-nist-csf:
   checked_at: '2026-09-27T00:00:00Z'
 ---
 
+
 # Summary
 
 Subcategory **RS.CO-02** of the NIST Cybersecurity Framework (CSF) 2.0[^nist-cswp-29]:
@@ -40,8 +41,6 @@ Part of Category [RS.CO](../categories/rs-co.md) under Function [RS (Respond)](.
 
 # Implementation guidance
 
-1st: 1st Party Risk
-3rd: 3rd Party Risk
 Ex1: Follow the organization's breach notification procedures after discovering a data breach incident, including notifying affected customers
 Ex2: Notify business partners and customers of incidents in accordance with contractual requirements
 Ex3: Notify law enforcement agencies and regulatory bodies of incidents based on criteria in the incident response plan and management approval
@@ -52,4 +51,4 @@ Ex3: Notify law enforcement agencies and regulatory bodies of incidents based on
 - [Function RS (Respond)](../functions/respond.md)
 - [Subcategories Index](index.md)
 
-[^nist-cswp-29]: National Institute of Standards and Technology, The NIST Cybersecurity Framework (CSF) 2.0, NIST CSWP 29, https://doi.org/10.6028/NIST.CSWP.29
+[^nist-cswp-29]: National Institute of Standards and Technology (NIST), The NIST Cybersecurity Framework (CSF) 2.0, https://doi.org/10.6028/NIST.CSWP.29

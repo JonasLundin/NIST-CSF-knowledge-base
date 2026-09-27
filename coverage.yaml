@@ -1,24 +1,26 @@
 version: 1
 release: 0.1.0
 baseline: '2026-09-27'
-coverage_status: complete
+coverage_status: partial
 review_status: unverified
-total_concepts: 157
+total_concepts: 177
 by_category:
-  standard: 3
-  glossary: 4
-  timeline: 3
-  profile: 6
+  glossary: 8
+  guidance: 12
   mapping: 4
-  guidance: 3
   outcome: 134
+  profile: 9
+  standard: 6
+  timeline: 4
 by_type:
-  Glossary: 4
+  Concept: 8
+  Glossary: 8
+  Guidance: 9
   Mapping: 4
   Outcome: 134
-  Profile: 4
+  Profile: 7
   Standard: 3
-  Timeline: 3
+  Timeline: 4
 gates:
   functions:
     pattern: framework/functions/*

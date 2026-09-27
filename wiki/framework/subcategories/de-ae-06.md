@@ -12,7 +12,7 @@ tags:
 - csf-2-0
 status: draft
 generated:
-  by: agent:antigravity
+  by: manual-curation
   at: '2026-09-27T00:00:00Z'
 stale_after: '2027-12-31T00:00:00Z'
 sources:
@@ -29,6 +29,7 @@ x-nist-csf:
   checked_at: '2026-09-27T00:00:00Z'
 ---
 
+
 # Summary
 
 Subcategory **DE.AE-06** of the NIST Cybersecurity Framework (CSF) 2.0[^nist-cswp-29]:
@@ -44,7 +45,6 @@ Ex1: Use cybersecurity software to generate alerts and provide them to the secur
 Ex2: Incident responders and other authorized personnel can access log analysis findings at all times
 Ex3: Automatically create and assign tickets in the organization's ticketing system when certain types of alerts occur
 Ex4: Manually create and assign tickets in the organization's ticketing system when technical staff discover indicators of compromise
-1st: 1st Party Risk
 
 # Related concepts
 
@@ -52,4 +52,4 @@ Ex4: Manually create and assign tickets in the organization's ticketing system w
 - [Function DE (Detect)](../functions/detect.md)
 - [Subcategories Index](index.md)
 
-[^nist-cswp-29]: National Institute of Standards and Technology, The NIST Cybersecurity Framework (CSF) 2.0, NIST CSWP 29, https://doi.org/10.6028/NIST.CSWP.29
+[^nist-cswp-29]: National Institute of Standards and Technology (NIST), The NIST Cybersecurity Framework (CSF) 2.0, https://doi.org/10.6028/NIST.CSWP.29

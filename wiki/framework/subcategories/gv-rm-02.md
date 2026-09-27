@@ -13,7 +13,7 @@ tags:
 - csf-2-0
 status: draft
 generated:
-  by: agent:antigravity
+  by: manual-curation
   at: '2026-09-27T00:00:00Z'
 stale_after: '2027-12-31T00:00:00Z'
 sources:
@@ -30,6 +30,7 @@ x-nist-csf:
   checked_at: '2026-09-27T00:00:00Z'
 ---
 
+
 # Summary
 
 Subcategory **GV.RM-02** of the NIST Cybersecurity Framework (CSF) 2.0[^nist-cswp-29]:
@@ -41,8 +42,6 @@ Part of Category [GV.RM](../categories/gv-rm.md) under Function [GV (Govern)](..
 
 # Implementation guidance
 
-1st: 1st Party Risk
-3rd: 3rd Party Risk
 Ex1: Determine and communicate risk appetite statements that convey expectations about the appropriate level of risk for the organization
 Ex2: Translate risk appetite statements into specific, measurable, and broadly understandable risk tolerance statements
 Ex3: Refine organizational objectives and risk appetite periodically based on known risk exposure and residual risk
@@ -53,4 +52,4 @@ Ex3: Refine organizational objectives and risk appetite periodically based on kn
 - [Function GV (Govern)](../functions/govern.md)
 - [Subcategories Index](index.md)
 
-[^nist-cswp-29]: National Institute of Standards and Technology, The NIST Cybersecurity Framework (CSF) 2.0, NIST CSWP 29, https://doi.org/10.6028/NIST.CSWP.29
+[^nist-cswp-29]: National Institute of Standards and Technology (NIST), The NIST Cybersecurity Framework (CSF) 2.0, https://doi.org/10.6028/NIST.CSWP.29

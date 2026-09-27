@@ -13,7 +13,7 @@ tags:
 - csf-2-0
 status: draft
 generated:
-  by: agent:antigravity
+  by: manual-curation
   at: '2026-09-27T00:00:00Z'
 stale_after: '2027-12-31T00:00:00Z'
 sources:
@@ -30,6 +30,7 @@ x-nist-csf:
   checked_at: '2026-09-27T00:00:00Z'
 ---
 
+
 # Summary
 
 Subcategory **ID.RA-03** of the NIST Cybersecurity Framework (CSF) 2.0[^nist-cswp-29]:
@@ -41,8 +42,6 @@ Part of Category [ID.RA](../categories/id-ra.md) under Function [ID (Identify)](
 
 # Implementation guidance
 
-1st: 1st Party Risk
-3rd: 3rd Party Risk
 Ex1: Use cyber threat intelligence to maintain awareness of the types of threat actors likely to target the organization and the TTPs they are likely to use
 Ex2: Perform threat hunting to look for signs of threat actors within the environment
 Ex3: Implement processes for identifying internal threat actors
@@ -53,4 +52,4 @@ Ex3: Implement processes for identifying internal threat actors
 - [Function ID (Identify)](../functions/identify.md)
 - [Subcategories Index](index.md)
 
-[^nist-cswp-29]: National Institute of Standards and Technology, The NIST Cybersecurity Framework (CSF) 2.0, NIST CSWP 29, https://doi.org/10.6028/NIST.CSWP.29
+[^nist-cswp-29]: National Institute of Standards and Technology (NIST), The NIST Cybersecurity Framework (CSF) 2.0, https://doi.org/10.6028/NIST.CSWP.29

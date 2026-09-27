@@ -13,7 +13,7 @@ tags:
 - csf-2-0
 status: draft
 generated:
-  by: agent:antigravity
+  by: manual-curation
   at: '2026-09-27T00:00:00Z'
 stale_after: '2027-12-31T00:00:00Z'
 sources:
@@ -30,6 +30,7 @@ x-nist-csf:
   checked_at: '2026-09-27T00:00:00Z'
 ---
 
+
 # Summary
 
 Subcategory **DE.AE-02** of the NIST Cybersecurity Framework (CSF) 2.0[^nist-cswp-29]:
@@ -45,7 +46,6 @@ Ex1: Use security information and event management (SIEM) or other tools to cont
 Ex2: Utilize up-to-date cyber threat intelligence in log analysis tools to improve detection accuracy and characterize threat actors, their methods, and indicators of compromise
 Ex3: Regularly conduct manual reviews of log events for technologies that cannot be sufficiently monitored through automation
 Ex4: Use log analysis tools to generate reports on their findings
-1st: 1st Party Risk
 
 # Related concepts
 
@@ -53,4 +53,4 @@ Ex4: Use log analysis tools to generate reports on their findings
 - [Function DE (Detect)](../functions/detect.md)
 - [Subcategories Index](index.md)
 
-[^nist-cswp-29]: National Institute of Standards and Technology, The NIST Cybersecurity Framework (CSF) 2.0, NIST CSWP 29, https://doi.org/10.6028/NIST.CSWP.29
+[^nist-cswp-29]: National Institute of Standards and Technology (NIST), The NIST Cybersecurity Framework (CSF) 2.0, https://doi.org/10.6028/NIST.CSWP.29

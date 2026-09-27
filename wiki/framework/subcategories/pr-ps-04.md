@@ -12,7 +12,7 @@ tags:
 - csf-2-0
 status: draft
 generated:
-  by: agent:antigravity
+  by: manual-curation
   at: '2026-09-27T00:00:00Z'
 stale_after: '2027-12-31T00:00:00Z'
 sources:
@@ -29,6 +29,7 @@ x-nist-csf:
   checked_at: '2026-09-27T00:00:00Z'
 ---
 
+
 # Summary
 
 Subcategory **PR.PS-04** of the NIST Cybersecurity Framework (CSF) 2.0[^nist-cswp-29]:
@@ -40,7 +41,6 @@ Part of Category [PR.PS](../categories/pr-ps.md) under Function [PR (Protect)](.
 
 # Implementation guidance
 
-1st: 1st Party Risk
 Ex1: Configure all operating systems, applications, and services (including cloud-based services) to generate log records
 Ex2: Configure log generators to securely share their logs with the organization's logging infrastructure systems and services
 Ex3: Configure log generators to record the data needed by zero-trust architectures
@@ -51,4 +51,4 @@ Ex3: Configure log generators to record the data needed by zero-trust architectu
 - [Function PR (Protect)](../functions/protect.md)
 - [Subcategories Index](index.md)
 
-[^nist-cswp-29]: National Institute of Standards and Technology, The NIST Cybersecurity Framework (CSF) 2.0, NIST CSWP 29, https://doi.org/10.6028/NIST.CSWP.29
+[^nist-cswp-29]: National Institute of Standards and Technology (NIST), The NIST Cybersecurity Framework (CSF) 2.0, https://doi.org/10.6028/NIST.CSWP.29

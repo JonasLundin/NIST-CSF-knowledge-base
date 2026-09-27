@@ -13,7 +13,7 @@ tags:
 - csf-2-0
 status: draft
 generated:
-  by: agent:antigravity
+  by: manual-curation
   at: '2026-09-27T00:00:00Z'
 stale_after: '2027-12-31T00:00:00Z'
 sources:
@@ -30,6 +30,7 @@ x-nist-csf:
   checked_at: '2026-09-27T00:00:00Z'
 ---
 
+
 # Summary
 
 Subcategory **GV.RM-03** of the NIST Cybersecurity Framework (CSF) 2.0[^nist-cswp-29]:
@@ -41,7 +42,6 @@ Part of Category [GV.RM](../categories/gv-rm.md) under Function [GV (Govern)](..
 
 # Implementation guidance
 
-1st: 1st Party Risk
 Ex1: Aggregate and manage cybersecurity risks alongside other enterprise risks (e.g., compliance, financial, operational, regulatory, reputational, safety)
 Ex2: Include cybersecurity risk managers in enterprise risk management planning
 Ex3: Establish criteria for escalating cybersecurity risks within enterprise risk management
@@ -52,4 +52,4 @@ Ex3: Establish criteria for escalating cybersecurity risks within enterprise ris
 - [Function GV (Govern)](../functions/govern.md)
 - [Subcategories Index](index.md)
 
-[^nist-cswp-29]: National Institute of Standards and Technology, The NIST Cybersecurity Framework (CSF) 2.0, NIST CSWP 29, https://doi.org/10.6028/NIST.CSWP.29
+[^nist-cswp-29]: National Institute of Standards and Technology (NIST), The NIST Cybersecurity Framework (CSF) 2.0, https://doi.org/10.6028/NIST.CSWP.29

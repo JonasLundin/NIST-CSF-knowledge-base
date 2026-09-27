@@ -13,7 +13,7 @@ tags:
 - csf-2-0
 status: draft
 generated:
-  by: agent:antigravity
+  by: manual-curation
   at: '2026-09-27T00:00:00Z'
 stale_after: '2027-12-31T00:00:00Z'
 sources:
@@ -30,6 +30,7 @@ x-nist-csf:
   checked_at: '2026-09-27T00:00:00Z'
 ---
 
+
 # Summary
 
 Subcategory **GV.SC-06** of the NIST Cybersecurity Framework (CSF) 2.0[^nist-cswp-29]:
@@ -45,7 +46,6 @@ Ex1: Perform thorough due diligence on prospective suppliers that is consistent 
 Ex2: Assess the suitability of the technology and cybersecurity capabilities and the risk management practices of prospective suppliers
 Ex3: Conduct supplier risk assessments against business and applicable cybersecurity requirements
 Ex4: Assess the authenticity, integrity, and security of critical products prior to acquisition and use
-3rd: 3rd Party Risk
 
 # Related concepts
 
@@ -53,4 +53,4 @@ Ex4: Assess the authenticity, integrity, and security of critical products prior
 - [Function GV (Govern)](../functions/govern.md)
 - [Subcategories Index](index.md)
 
-[^nist-cswp-29]: National Institute of Standards and Technology, The NIST Cybersecurity Framework (CSF) 2.0, NIST CSWP 29, https://doi.org/10.6028/NIST.CSWP.29
+[^nist-cswp-29]: National Institute of Standards and Technology (NIST), The NIST Cybersecurity Framework (CSF) 2.0, https://doi.org/10.6028/NIST.CSWP.29

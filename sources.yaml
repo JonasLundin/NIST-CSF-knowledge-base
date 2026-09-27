@@ -1,11 +1,8 @@
-version: 1
-checked_at: '2026-09-27T00:00:00Z'
-total_sources: 5
+total_sources: 8
 sources:
   nist-cswp-29:
-    id: nist-cswp-29
-    resource: https://doi.org/10.6028/NIST.CSWP.29
     title: The NIST Cybersecurity Framework (CSF) 2.0
+    resource: https://doi.org/10.6028/NIST.CSWP.29
     author: National Institute of Standards and Technology (NIST)
     last_modified: '2024-02-26T00:00:00Z'
     used_by:
@@ -148,48 +145,94 @@ sources:
     - framework/subcategories/rs-mi-01
     - framework/subcategories/rs-mi-02
     - glossary/community-profile
-    - glossary/cybersecurity-risk
-    - glossary/implementation-tier
+    - glossary/csf-category
+    - glossary/csf-core
+    - glossary/csf-subcategory
+    - glossary/csf-tier
+    - glossary/informative-reference
     - glossary/organizational-profile
+    - guidance/implementation-examples/csf-implementation-examples-guide
+    - guidance/quick-start-guides/community-profiles-guide
+    - guidance/quick-start-guides/creating-and-using-organizational-profiles
+    - guidance/quick-start-guides/cybersecurity-supply-chain-risk-management
+    - guidance/quick-start-guides/enterprise-risk-management-quick-start
+    - guidance/quick-start-guides/erm-and-workforce-quick-start
+    - guidance/quick-start-guides/informative-references-quick-start
+    - guidance/quick-start-guides/resource-and-overview-guide
+    - guidance/quick-start-guides/small-business-quick-start
+    - guidance/quick-start-guides/using-ai-for-csf-quick-start
+    - guidance/quick-start-guides/using-csf-tiers
+    - guidance/tools/cprt-and-reference-tool
     - informative-references/cis-controls-v8
+    - informative-references/csf-1-1-reference
     - informative-references/iso-iec-27001-2022
+    - informative-references/olir-program
+    - informative-references/sp-800-221a
     - informative-references/sp-800-53-r5
+    - profiles/community/community-profiles-development
+    - profiles/organizational/creating-organizational-profiles
+    - profiles/organizational/current-state-profile
+    - profiles/organizational/profile-template
+    - profiles/organizational/target-state-profile
     - profiles/tiers/tier-1-partial
     - profiles/tiers/tier-2-risk-informed
     - profiles/tiers/tier-3-repeatable
     - profiles/tiers/tier-4-adaptive
-    - timeline/csf-1-1-publication
     - timeline/csf-2-0-publication
-    - timeline/eo-13636
-  nist-sp-800-53-r5:
-    id: nist-sp-800-53-r5
-    resource: https://doi.org/10.6028/NIST.SP.800-53r5
-    title: Security and Privacy Controls for Information Systems and Organizations
+  nist-cprt-csf-2-0:
+    title: "NIST Cybersecurity and Privacy Reference Tool (CPRT) \u2014 CSF 2.0 Implementation\
+      \ Examples"
+    resource: https://csrc.nist.gov/projects/cprt
     author: National Institute of Standards and Technology (NIST)
-    last_modified: '2020-09-01T00:00:00Z'
+    last_modified: '2024-02-26T00:00:00Z'
+    used_by: []
+  nist-ir-8477:
+    title: 'NIST IR 8477: Mapping Cybersecurity and Privacy Concepts Using the National
+      Online Informative References (OLIR) Program'
+    resource: https://doi.org/10.6028/NIST.IR.8477
+    author: National Institute of Standards and Technology (NIST)
+    last_modified: '2023-07-28T00:00:00Z'
     used_by:
-    - informative-references/sp-800-53-r5
-  iso-iec-27001-2022:
-    id: iso-iec-27001-2022
-    resource: https://www.iso.org/standard/27001
-    title: ISO/IEC 27001:2022 Information security, cybersecurity and privacy protection
-    author: International Organization for Standardization (ISO) / IEC
-    last_modified: '2022-10-25T00:00:00Z'
+    - crosswalks/eu-cra/eu-cra-mapping
+    - crosswalks/eu-nis2/eu-nis2-mapping
+    - crosswalks/iec-62443/iec-62443-mapping
+    - crosswalks/iso-iec-27001/iso-iec-27001-mapping
+    - informative-references/csf-1-1-reference
+    - informative-references/olir-program
+    - informative-references/sp-800-221a
+  nist-cswp-6:
+    title: Framework for Improving Critical Infrastructure Cybersecurity, Version
+      1.1
+    resource: https://doi.org/10.6028/NIST.CSWP.6
+    author: National Institute of Standards and Technology (NIST)
+    last_modified: '2018-04-16T00:00:00Z'
     used_by:
-    - informative-references/iso-iec-27001-2022
-  cis-controls-v8:
-    id: cis-controls-v8
-    resource: https://www.cisecurity.org/controls/v8
-    title: Center for Internet Security (CIS) Controls Version 8
-    author: Center for Internet Security
-    last_modified: '2021-05-18T00:00:00Z'
+    - timeline/csf-1-1-publication
+  nist-ir-8286:
+    title: 'NIST IR 8286: Integrating Cybersecurity and Enterprise Risk Management
+      (ERM)'
+    resource: https://doi.org/10.6028/NIST.IR.8286
+    author: National Institute of Standards and Technology (NIST)
+    last_modified: '2020-10-15T00:00:00Z'
     used_by:
-    - informative-references/cis-controls-v8
+    - glossary/cybersecurity-risk
+  nist-ir-8406:
+    title: Community Profile for Cybersecurity in Genomic Data
+    resource: https://doi.org/10.6028/NIST.IR.8406
+    author: National Institute of Standards and Technology (NIST)
+    last_modified: '2022-09-01T00:00:00Z'
+    used_by: []
+  nist-ir-8441:
+    title: Cybersecurity Profile for the Hybrid Satellite Network
+    resource: https://doi.org/10.6028/NIST.IR.8441
+    author: National Institute of Standards and Technology (NIST)
+    last_modified: '2023-05-01T00:00:00Z'
+    used_by: []
   eo-13636:
-    id: eo-13636
-    resource: https://www.federalregister.gov/documents/2013/02/19/2013-03725/improving-critical-infrastructure-cybersecurity
     title: 'Executive Order 13636: Improving Critical Infrastructure Cybersecurity'
-    author: Executive Office of the President of the United States
+    resource: https://www.federalregister.gov/documents/2013/02/19/2013-03725/improving-critical-infrastructure-cybersecurity
+    author: Executive Office of the President
     last_modified: '2013-02-12T00:00:00Z'
     used_by:
+    - timeline/csf-1-0-publication
     - timeline/eo-13636

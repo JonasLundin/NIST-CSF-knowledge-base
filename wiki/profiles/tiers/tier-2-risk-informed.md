@@ -1,8 +1,8 @@
 ---
 type: Profile
-title: 'Tier 2: Risk-Informed'
-description: Risk management practices are approved by management but not established
-  as an organization-wide policy.
+title: 'Tier 2: Risk Informed'
+description: 'NIST CSF 2.0 Tier 2 (Risk Informed): approved cybersecurity risk practices
+  without organization-wide integration.'
 category: profile
 tags:
 - nist-csf
@@ -11,7 +11,7 @@ tags:
 - csf-2-0
 status: draft
 generated:
-  by: agent:antigravity
+  by: manual-curation
   at: '2026-09-27T00:00:00Z'
 stale_after: '2027-12-31T00:00:00Z'
 sources:
@@ -23,25 +23,24 @@ sources:
 x-nist-csf:
   jurisdiction: US
   authority_level: voluntary
-  instrument_status: in_force
-  provision: Tier 2
   checked_at: '2026-09-27T00:00:00Z'
+  provision: Appendix B Table 2
 ---
 
 # Summary
 
-**Tier 2 (Risk-Informed)** describes an organization where cybersecurity awareness exists and risk management practices are approved by management, but not yet implemented across the enterprise as consistent, repeatable policy[^nist-cswp-29].
+**Tier 2 (Risk Informed)** characterizes organizations where risk management practices are approved by management but are not established as an organization-wide policy[^nist-cswp-29].
 
-# Tier Characteristics across Key Dimensions
+# CSF 2.0 Tier Dimensions (Table 2)
 
-| Dimension | Tier 2 Operational Characteristics |
-| :--- | :--- |
-| **Risk Management Process** | Management approves risk management practices, but they may not be established as organizational-wide policy. Priorities are directly informed by business risk objectives, threat awareness, and operational requirements. |
-| **Integrated Risk Management Program** | There is an awareness of cybersecurity risk at the organizational level, but an organization-wide approach to managing cybersecurity risk has not been fully institutionalized. Consideration of cybersecurity in business decisions is emerging but inconsistent. |
-| **External Participation** | The organization understands cyber risks associated with its supply chain and communicates with external partners informally. Threat intelligence is ingested, but dissemination across operational units remains siloed. |
+| Dimension | Characteristics |
+|---|---|
+| **Cybersecurity Risk Governance** | Management approves cybersecurity risk practices, but policies and processes may not be integrated into an organization-wide program. Objectives are prioritized based on risk considerations, but consistent execution is not fully realized. |
+| **Cybersecurity Risk Management** | There is awareness of cybersecurity risks across parts of the organization, but risk management processes are not consistent across departments. Resources are allocated, but risk measurement is informal. |
 
 # Related concepts
-- [Tier 1: Partial](tier-1-partial.md)
-- [Tier 3: Repeatable](tier-3-repeatable.md)
-- [NIST CSF 2.0 Framework Overview](../../framework/index.md)
-[^nist-cswp-29]: National Institute of Standards and Technology, The NIST Cybersecurity Framework (CSF) 2.0, NIST CSWP 29, https://doi.org/10.6028/NIST.CSWP.29
+- [Tiers Index](index.md)
+- [Tier 1 Partial](tier-1-partial.md)
+- [Tier 3 Repeatable](tier-3-repeatable.md)
+
+[^nist-cswp-29]: National Institute of Standards and Technology (NIST), The NIST Cybersecurity Framework (CSF) 2.0, https://doi.org/10.6028/NIST.CSWP.29

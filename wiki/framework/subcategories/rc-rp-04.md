@@ -13,7 +13,7 @@ tags:
 - csf-2-0
 status: draft
 generated:
-  by: agent:antigravity
+  by: manual-curation
   at: '2026-09-27T00:00:00Z'
 stale_after: '2027-12-31T00:00:00Z'
 sources:
@@ -30,6 +30,7 @@ x-nist-csf:
   checked_at: '2026-09-27T00:00:00Z'
 ---
 
+
 # Summary
 
 Subcategory **RC.RP-04** of the NIST Cybersecurity Framework (CSF) 2.0[^nist-cswp-29]:
@@ -41,7 +42,6 @@ Part of Category [RC.RP](../categories/rc-rp.md) under Function [RC (Recover)](.
 
 # Implementation guidance
 
-1st: 1st Party Risk
 Ex1: Use business impact and system categorization records (including service delivery objectives) to validate that essential services are restored in the appropriate order
 Ex2: Work with system owners to confirm the successful restoration of systems and the return to normal operations
 Ex3: Monitor the performance of restored systems to verify the adequacy of the restoration
@@ -52,4 +52,4 @@ Ex3: Monitor the performance of restored systems to verify the adequacy of the r
 - [Function RC (Recover)](../functions/recover.md)
 - [Subcategories Index](index.md)
 
-[^nist-cswp-29]: National Institute of Standards and Technology, The NIST Cybersecurity Framework (CSF) 2.0, NIST CSWP 29, https://doi.org/10.6028/NIST.CSWP.29
+[^nist-cswp-29]: National Institute of Standards and Technology (NIST), The NIST Cybersecurity Framework (CSF) 2.0, https://doi.org/10.6028/NIST.CSWP.29
