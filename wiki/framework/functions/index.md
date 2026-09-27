@@ -1,6 +1,6 @@
 # Functions
 
-Govern, Identify, Protect, Detect, Respond, Recover.
+Navigation index for Functions.
 
 ## Concepts
 
@@ -10,3 +10,4 @@ Govern, Identify, Protect, Detect, Respond, Recover.
 - [PR: Protect](protect.md) — Safeguards to manage the organization's cybersecurity risks are used.
 - [RC: Recover](recover.md) — Assets and operations affected by a cybersecurity incident are restored.
 - [RS: Respond](respond.md) — Actions regarding a detected cybersecurity incident are taken.
+

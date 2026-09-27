@@ -13,7 +13,7 @@ tags:
 - csf-2-0
 status: draft
 generated:
-  by: agent:antigravity
+  by: manual-curation
   at: '2026-09-27T00:00:00Z'
 stale_after: '2027-12-31T00:00:00Z'
 sources:
@@ -29,6 +29,7 @@ x-nist-csf:
   provision: Subcategory DE.CM-09
   checked_at: '2026-09-27T00:00:00Z'
 ---
+
 
 # Summary
 
@@ -46,7 +47,6 @@ Ex2: Monitor authentication attempts to identify attacks against credentials and
 Ex3: Monitor software configurations for deviations from security baselines
 Ex4: Monitor hardware and software for signs of tampering
 Ex5: Use technologies with a presence on endpoints to detect cyber health issues (e.g., missing patches, malware infections, unauthorized software), and redirect the endpoints to a remediation environment before access is authorized
-1st: 1st Party Risk
 
 # Related concepts
 
@@ -54,4 +54,4 @@ Ex5: Use technologies with a presence on endpoints to detect cyber health issues
 - [Function DE (Detect)](../functions/detect.md)
 - [Subcategories Index](index.md)
 
-[^nist-cswp-29]: National Institute of Standards and Technology, The NIST Cybersecurity Framework (CSF) 2.0, NIST CSWP 29, https://doi.org/10.6028/NIST.CSWP.29
+[^nist-cswp-29]: National Institute of Standards and Technology (NIST), The NIST Cybersecurity Framework (CSF) 2.0, https://doi.org/10.6028/NIST.CSWP.29

@@ -1,9 +1,10 @@
 # Framework
 
-The CSF Core: one page per function, category and subcategory, with the identifier used verbatim and the gaps in numbering preserved.
+Navigation index for Framework.
 
 ## Sections
 
-- [Categories](categories/index.md) — One page per category, for example GV.OC or ID.AM.
-- [Functions](functions/index.md) — Govern, Identify, Protect, Detect, Respond, Recover.
-- [Subcategories](subcategories/index.md) — One page per subcategory, for example ID.AM-01, with NIST's implementation examples summarised and linked.
+- [Categories](categories/index.md) — Category section for Categories.
+- [Functions](functions/index.md) — Category section for Functions.
+- [Subcategories](subcategories/index.md) — Category section for Subcategories.
+

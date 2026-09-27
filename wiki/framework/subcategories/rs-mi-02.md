@@ -12,7 +12,7 @@ tags:
 - csf-2-0
 status: draft
 generated:
-  by: agent:antigravity
+  by: manual-curation
   at: '2026-09-27T00:00:00Z'
 stale_after: '2027-12-31T00:00:00Z'
 sources:
@@ -29,6 +29,7 @@ x-nist-csf:
   checked_at: '2026-09-27T00:00:00Z'
 ---
 
+
 # Summary
 
 Subcategory **RS.MI-02** of the NIST Cybersecurity Framework (CSF) 2.0[^nist-cswp-29]:
@@ -40,8 +41,6 @@ Part of Category [RS.MI](../categories/rs-mi.md) under Function [RS (Respond)](.
 
 # Implementation guidance
 
-1st: 1st Party Risk
-3rd: 3rd Party Risk
 Ex1: Cybersecurity technologies and cybersecurity features of other technologies (e.g., operating systems, network infrastructure devices) automatically perform eradication actions
 Ex2: Allow incident responders to manually select and perform eradication actions
 Ex3: Allow a third party (e.g., managed security service provider) to perform eradication actions on behalf of the organization
@@ -52,4 +51,4 @@ Ex3: Allow a third party (e.g., managed security service provider) to perform er
 - [Function RS (Respond)](../functions/respond.md)
 - [Subcategories Index](index.md)
 
-[^nist-cswp-29]: National Institute of Standards and Technology, The NIST Cybersecurity Framework (CSF) 2.0, NIST CSWP 29, https://doi.org/10.6028/NIST.CSWP.29
+[^nist-cswp-29]: National Institute of Standards and Technology (NIST), The NIST Cybersecurity Framework (CSF) 2.0, https://doi.org/10.6028/NIST.CSWP.29

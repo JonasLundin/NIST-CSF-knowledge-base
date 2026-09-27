@@ -1,8 +1,8 @@
 ---
 type: Profile
 title: 'Tier 3: Repeatable'
-description: Risk management practices are formally approved and expressed as policy,
-  consistently applied organization-wide.
+description: 'NIST CSF 2.0 Tier 3 (Repeatable): formally approved, organization-wide
+  cybersecurity risk governance and management processes.'
 category: profile
 tags:
 - nist-csf
@@ -11,7 +11,7 @@ tags:
 - csf-2-0
 status: draft
 generated:
-  by: agent:antigravity
+  by: manual-curation
   at: '2026-09-27T00:00:00Z'
 stale_after: '2027-12-31T00:00:00Z'
 sources:
@@ -23,25 +23,24 @@ sources:
 x-nist-csf:
   jurisdiction: US
   authority_level: voluntary
-  instrument_status: in_force
-  provision: Tier 3
   checked_at: '2026-09-27T00:00:00Z'
+  provision: Appendix B Table 2
 ---
 
 # Summary
 
-**Tier 3 (Repeatable)** represents an institutionalized, enterprise-wide cybersecurity risk management posture where formal policies and repeatable processes govern all operational decisions[^nist-cswp-29].
+**Tier 3 (Repeatable)** characterizes organizations with formally approved, organization-wide cybersecurity risk governance and consistent risk management processes[^nist-cswp-29].
 
-# Tier Characteristics across Key Dimensions
+# CSF 2.0 Tier Dimensions (Table 2)
 
-| Dimension | Tier 3 Operational Characteristics |
-| :--- | :--- |
-| **Risk Management Process** | The organization's risk management practices are formally approved and expressed as policy. Practices are regularly updated based on risk requirements, business changes, and emerging cyber threats. |
-| **Integrated Risk Management Program** | There is an organization-wide approach to managing cybersecurity risk. Personnel possess the knowledge and skills to perform their roles. Enterprise risk governance explicitly incorporates cybersecurity risk metrics and appetite statements. |
-| **External Participation** | The organization actively collaborates with external partners, sharing threat intelligence and participating in ISACs or sector-specific incident response networks. Third-party suppliers are formally assessed and bound by contractual cybersecurity requirements. |
+| Dimension | Characteristics |
+|---|---|
+| **Cybersecurity Risk Governance** | The organization's risk management practices are formally approved and expressed as policy. Cybersecurity practices are regularly updated based on application of risk management processes to changes in business/mission requirements and threats. |
+| **Cybersecurity Risk Management** | There is an organization-wide approach to managing cybersecurity risk. Risk-informed policies, processes, and procedures are defined, implemented as intended, and continually reviewed. Methods are in place to respond effectively to changes in risk. |
 
 # Related concepts
-- [Tier 2: Risk-Informed](tier-2-risk-informed.md)
-- [Tier 4: Adaptive](tier-4-adaptive.md)
-- [NIST CSF 2.0 Framework Overview](../../framework/index.md)
-[^nist-cswp-29]: National Institute of Standards and Technology, The NIST Cybersecurity Framework (CSF) 2.0, NIST CSWP 29, https://doi.org/10.6028/NIST.CSWP.29
+- [Tiers Index](index.md)
+- [Tier 2 Risk Informed](tier-2-risk-informed.md)
+- [Tier 4 Adaptive](tier-4-adaptive.md)
+
+[^nist-cswp-29]: National Institute of Standards and Technology (NIST), The NIST Cybersecurity Framework (CSF) 2.0, https://doi.org/10.6028/NIST.CSWP.29

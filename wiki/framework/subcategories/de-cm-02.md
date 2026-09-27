@@ -12,7 +12,7 @@ tags:
 - csf-2-0
 status: draft
 generated:
-  by: agent:antigravity
+  by: manual-curation
   at: '2026-09-27T00:00:00Z'
 stale_after: '2027-12-31T00:00:00Z'
 sources:
@@ -29,6 +29,7 @@ x-nist-csf:
   checked_at: '2026-09-27T00:00:00Z'
 ---
 
+
 # Summary
 
 Subcategory **DE.CM-02** of the NIST Cybersecurity Framework (CSF) 2.0[^nist-cswp-29]:
@@ -44,7 +45,6 @@ Ex1: Monitor logs from physical access control systems (e.g., badge readers) to 
 Ex2: Review and monitor physical access records (e.g., from visitor registration, sign-in sheets)
 Ex3: Monitor physical access controls (e.g., locks, latches, hinge pins, alarms) for signs of tampering
 Ex4: Monitor the physical environment using alarm systems, cameras, and security guards
-1st: 1st Party Risk
 
 # Related concepts
 
@@ -52,4 +52,4 @@ Ex4: Monitor the physical environment using alarm systems, cameras, and security
 - [Function DE (Detect)](../functions/detect.md)
 - [Subcategories Index](index.md)
 
-[^nist-cswp-29]: National Institute of Standards and Technology, The NIST Cybersecurity Framework (CSF) 2.0, NIST CSWP 29, https://doi.org/10.6028/NIST.CSWP.29
+[^nist-cswp-29]: National Institute of Standards and Technology (NIST), The NIST Cybersecurity Framework (CSF) 2.0, https://doi.org/10.6028/NIST.CSWP.29

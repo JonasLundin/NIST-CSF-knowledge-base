@@ -1,6 +1,6 @@
 ---
 type: Glossary
-title: Community Profile
+title: CSF Community Profile
 description: A CSF profile tailored to a specific sector, technology, or community
   of organizations sharing common cybersecurity risks.
 category: glossary
@@ -24,7 +24,7 @@ x-nist-csf:
   jurisdiction: US
   authority_level: voluntary
   instrument_status: in_force
-  provision: 'Term: Community Profile'
+  provision: Appendix C
   checked_at: '2026-09-27T00:00:00Z'
 ---
 
@@ -34,7 +34,7 @@ x-nist-csf:
 
 # Context
 
-Defined in Appendix B (Glossary) of the NIST Cybersecurity Framework (CSF) 2.0.
+Defined in Appendix C (Glossary) of the NIST Cybersecurity Framework (CSF) 2.0.
 
 # Related concepts
 

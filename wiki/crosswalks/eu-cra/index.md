@@ -1,7 +1,8 @@
-# Cyber Resilience Act
+# Eu Cra
 
-Subcategory to CRA Annex I and Article 13 and 14 relationships (pointers to CRA-knowledge-base).
+Navigation index for Eu Cra.
 
 ## Concepts
 
-- [EU Cyber Resilience Act Crosswalk](eu-cra-mapping.md) — Mapping between NIST CSF 2.0 Core and essential cybersecurity requirements of Regulation (EU) 2024/2847 (CRA).
+- [EU Cyber Resilience Act (CRA) Crosswalk](eu-cra-mapping.md) — Informative mapping between NIST CSF 2.0 Subcategories and CRA (Regulation (EU) 2024/2847) Annex I essential requirements.
+

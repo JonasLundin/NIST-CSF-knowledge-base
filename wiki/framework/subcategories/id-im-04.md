@@ -13,7 +13,7 @@ tags:
 - csf-2-0
 status: draft
 generated:
-  by: agent:antigravity
+  by: manual-curation
   at: '2026-09-27T00:00:00Z'
 stale_after: '2027-12-31T00:00:00Z'
 sources:
@@ -30,6 +30,7 @@ x-nist-csf:
   checked_at: '2026-09-27T00:00:00Z'
 ---
 
+
 # Summary
 
 Subcategory **ID.IM-04** of the NIST Cybersecurity Framework (CSF) 2.0[^nist-cswp-29]:
@@ -41,7 +42,6 @@ Part of Category [ID.IM](../categories/id-im.md) under Function [ID (Identify)](
 
 # Implementation guidance
 
-1st: 1st Party Risk
 Ex1: Establish contingency plans (e.g., incident response, business continuity, disaster recovery) for responding to and recovering from adverse events that can interfere with operations, expose confidential information, or otherwise endanger the organization's mission and viability
 Ex2: Include contact and communication information, processes for handling common scenarios, and criteria for prioritization, escalation, and elevation in all contingency plans
 Ex3: Create a vulnerability management plan to identify and assess all types of vulnerabilities and to prioritize, test, and implement risk responses
@@ -54,4 +54,4 @@ Ex5: Review and update all cybersecurity plans annually or when a need for signi
 - [Function ID (Identify)](../functions/identify.md)
 - [Subcategories Index](index.md)
 
-[^nist-cswp-29]: National Institute of Standards and Technology, The NIST Cybersecurity Framework (CSF) 2.0, NIST CSWP 29, https://doi.org/10.6028/NIST.CSWP.29
+[^nist-cswp-29]: National Institute of Standards and Technology (NIST), The NIST Cybersecurity Framework (CSF) 2.0, https://doi.org/10.6028/NIST.CSWP.29

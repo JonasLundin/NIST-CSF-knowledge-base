@@ -13,7 +13,7 @@ tags:
 - csf-2-0
 status: draft
 generated:
-  by: agent:antigravity
+  by: manual-curation
   at: '2026-09-27T00:00:00Z'
 stale_after: '2027-12-31T00:00:00Z'
 sources:
@@ -29,6 +29,7 @@ x-nist-csf:
   provision: Subcategory DE.CM-01
   checked_at: '2026-09-27T00:00:00Z'
 ---
+
 
 # Summary
 
@@ -46,7 +47,6 @@ Ex2: Monitor wired and wireless networks for connections from unauthorized endpo
 Ex3: Monitor facilities for unauthorized or rogue wireless networks
 Ex4: Compare actual network flows against baselines to detect deviations
 Ex5: Monitor network communications to identify changes in security postures for zero trust purposes
-1st: 1st Party Risk
 
 # Related concepts
 
@@ -54,4 +54,4 @@ Ex5: Monitor network communications to identify changes in security postures for
 - [Function DE (Detect)](../functions/detect.md)
 - [Subcategories Index](index.md)
 
-[^nist-cswp-29]: National Institute of Standards and Technology, The NIST Cybersecurity Framework (CSF) 2.0, NIST CSWP 29, https://doi.org/10.6028/NIST.CSWP.29
+[^nist-cswp-29]: National Institute of Standards and Technology (NIST), The NIST Cybersecurity Framework (CSF) 2.0, https://doi.org/10.6028/NIST.CSWP.29

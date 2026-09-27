@@ -13,7 +13,7 @@ tags:
 - csf-2-0
 status: draft
 generated:
-  by: agent:antigravity
+  by: manual-curation
   at: '2026-09-27T00:00:00Z'
 stale_after: '2027-12-31T00:00:00Z'
 sources:
@@ -29,6 +29,7 @@ x-nist-csf:
   provision: Subcategory GV.SC-08
   checked_at: '2026-09-27T00:00:00Z'
 ---
+
 
 # Summary
 
@@ -46,7 +47,6 @@ Ex2: Identify and document the roles and responsibilities of the organization an
 Ex3: Include critical suppliers in incident response exercises and simulations
 Ex4: Define and coordinate crisis communication methods and protocols between the organization and its critical suppliers
 Ex5: Conduct collaborative lessons learned sessions with critical suppliers
-3rd: 3rd Party Risk
 
 # Related concepts
 
@@ -54,4 +54,4 @@ Ex5: Conduct collaborative lessons learned sessions with critical suppliers
 - [Function GV (Govern)](../functions/govern.md)
 - [Subcategories Index](index.md)
 
-[^nist-cswp-29]: National Institute of Standards and Technology, The NIST Cybersecurity Framework (CSF) 2.0, NIST CSWP 29, https://doi.org/10.6028/NIST.CSWP.29
+[^nist-cswp-29]: National Institute of Standards and Technology (NIST), The NIST Cybersecurity Framework (CSF) 2.0, https://doi.org/10.6028/NIST.CSWP.29

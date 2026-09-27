@@ -14,7 +14,7 @@ tags:
 - csf-2-0
 status: draft
 generated:
-  by: agent:antigravity
+  by: manual-curation
   at: '2026-09-27T00:00:00Z'
 stale_after: '2027-12-31T00:00:00Z'
 sources:
@@ -30,6 +30,7 @@ x-nist-csf:
   provision: Subcategory GV.SC-05
   checked_at: '2026-09-27T00:00:00Z'
 ---
+
 
 # Summary
 
@@ -52,7 +53,6 @@ Ex7: Contractually require suppliers to provide and maintain a current component
 Ex8: Contractually require suppliers to vet their employees and guard against insider threats
 Ex9: Contractually require suppliers to provide evidence of performing acceptable security practices through, for example, self-attestation, conformance to known standards, certifications, or inspections
 Ex10: Specify in contracts and other agreements the rights and responsibilities of the organization, its suppliers, and their supply chains, with respect to potential cybersecurity risks
-3rd: 3rd Party Risk
 
 # Related concepts
 
@@ -60,4 +60,4 @@ Ex10: Specify in contracts and other agreements the rights and responsibilities 
 - [Function GV (Govern)](../functions/govern.md)
 - [Subcategories Index](index.md)
 
-[^nist-cswp-29]: National Institute of Standards and Technology, The NIST Cybersecurity Framework (CSF) 2.0, NIST CSWP 29, https://doi.org/10.6028/NIST.CSWP.29
+[^nist-cswp-29]: National Institute of Standards and Technology (NIST), The NIST Cybersecurity Framework (CSF) 2.0, https://doi.org/10.6028/NIST.CSWP.29

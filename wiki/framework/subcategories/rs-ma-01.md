@@ -13,7 +13,7 @@ tags:
 - csf-2-0
 status: draft
 generated:
-  by: agent:antigravity
+  by: manual-curation
   at: '2026-09-27T00:00:00Z'
 stale_after: '2027-12-31T00:00:00Z'
 sources:
@@ -30,6 +30,7 @@ x-nist-csf:
   checked_at: '2026-09-27T00:00:00Z'
 ---
 
+
 # Summary
 
 Subcategory **RS.MA-01** of the NIST Cybersecurity Framework (CSF) 2.0[^nist-cswp-29]:
@@ -45,7 +46,6 @@ Ex1: Detection technologies automatically report confirmed incidents
 Ex2: Request incident response assistance from the organization's incident response outsourcer
 Ex3: Designate an incident lead for each incident
 Ex4: Initiate execution of additional cybersecurity plans as needed to support incident response (for example, business continuity and disaster recovery)
-3rd: 3rd Party Risk
 
 # Related concepts
 
@@ -53,4 +53,4 @@ Ex4: Initiate execution of additional cybersecurity plans as needed to support i
 - [Function RS (Respond)](../functions/respond.md)
 - [Subcategories Index](index.md)
 
-[^nist-cswp-29]: National Institute of Standards and Technology, The NIST Cybersecurity Framework (CSF) 2.0, NIST CSWP 29, https://doi.org/10.6028/NIST.CSWP.29
+[^nist-cswp-29]: National Institute of Standards and Technology (NIST), The NIST Cybersecurity Framework (CSF) 2.0, https://doi.org/10.6028/NIST.CSWP.29
