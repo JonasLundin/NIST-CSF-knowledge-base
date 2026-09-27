@@ -1,9 +1,8 @@
 ---
 type: Profile
 title: 'Tier 4: Adaptive'
-description: Organization adapts cybersecurity practices based on lessons learned
-  and predictive indicators; continuous improvement driven by advanced technologies
-  and practices.
+description: Continuous improvement and agile adaptation based on predictive indicators,
+  lessons learned, and predictive intelligence.
 category: profile
 tags:
 - nist-csf
@@ -31,19 +30,17 @@ x-nist-csf:
 
 # Summary
 
-**Tier 4: Adaptive** characterizes the degree of rigor and sophistication in an organization's cybersecurity risk management practices[^nist-cswp-29].
+**Tier 4 (Adaptive)** characterizes an advanced, agile cybersecurity risk management posture where the organization continuously adapts its practices based on predictive analytics, lessons learned, and evolving threat ecosystems[^nist-cswp-29].
 
-Organization adapts cybersecurity practices based on lessons learned and predictive indicators; continuous improvement driven by advanced technologies and practices.
+# Tier Characteristics across Key Dimensions
 
-# Characteristics
-
-CSF Tiers characterize an organization's cybersecurity risk governance and management practices:
-- Risk Management Process
-- Integrated Risk Management Program
-- External Participation
+| Dimension | Tier 4 Operational Characteristics |
+| :--- | :--- |
+| **Risk Management Process** | The organization adapts its cybersecurity practices based on past, current, and predicted cybersecurity events. Continuous improvement is embedded into organizational culture through real-time feedback loops and root-cause analysis. |
+| **Integrated Risk Management Program** | There is an organization-wide approach to managing cybersecurity risk that uses risk-informed policies, processes, and procedures to address potential cyber threats before they materialize. Executive leadership views cybersecurity as a core business enabler. |
+| **External Participation** | The organization acts as a trusted leader in the broader cyber community, sharing proactive threat indicators, authoring vulnerability advisories, and contributing to national and international security standards. |
 
 # Related concepts
-
-- [Tiers Index](index.md)
-
+- [Tier 3: Repeatable](tier-3-repeatable.md)
+- [NIST CSF 2.0 Framework Overview](../../framework/index.md)
 [^nist-cswp-29]: National Institute of Standards and Technology, The NIST Cybersecurity Framework (CSF) 2.0, NIST CSWP 29, https://doi.org/10.6028/NIST.CSWP.29

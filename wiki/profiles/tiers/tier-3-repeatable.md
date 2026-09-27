@@ -1,8 +1,8 @@
 ---
 type: Profile
 title: 'Tier 3: Repeatable'
-description: Organization-wide risk management practices are formally established,
-  regularly updated, and based on policy; consistent implementation across the organization.
+description: Risk management practices are formally approved and expressed as policy,
+  consistently applied organization-wide.
 category: profile
 tags:
 - nist-csf
@@ -30,19 +30,18 @@ x-nist-csf:
 
 # Summary
 
-**Tier 3: Repeatable** characterizes the degree of rigor and sophistication in an organization's cybersecurity risk management practices[^nist-cswp-29].
+**Tier 3 (Repeatable)** represents an institutionalized, enterprise-wide cybersecurity risk management posture where formal policies and repeatable processes govern all operational decisions[^nist-cswp-29].
 
-Organization-wide risk management practices are formally established, regularly updated, and based on policy; consistent implementation across the organization.
+# Tier Characteristics across Key Dimensions
 
-# Characteristics
-
-CSF Tiers characterize an organization's cybersecurity risk governance and management practices:
-- Risk Management Process
-- Integrated Risk Management Program
-- External Participation
+| Dimension | Tier 3 Operational Characteristics |
+| :--- | :--- |
+| **Risk Management Process** | The organization's risk management practices are formally approved and expressed as policy. Practices are regularly updated based on risk requirements, business changes, and emerging cyber threats. |
+| **Integrated Risk Management Program** | There is an organization-wide approach to managing cybersecurity risk. Personnel possess the knowledge and skills to perform their roles. Enterprise risk governance explicitly incorporates cybersecurity risk metrics and appetite statements. |
+| **External Participation** | The organization actively collaborates with external partners, sharing threat intelligence and participating in ISACs or sector-specific incident response networks. Third-party suppliers are formally assessed and bound by contractual cybersecurity requirements. |
 
 # Related concepts
-
-- [Tiers Index](index.md)
-
+- [Tier 2: Risk-Informed](tier-2-risk-informed.md)
+- [Tier 4: Adaptive](tier-4-adaptive.md)
+- [NIST CSF 2.0 Framework Overview](../../framework/index.md)
 [^nist-cswp-29]: National Institute of Standards and Technology, The NIST Cybersecurity Framework (CSF) 2.0, NIST CSWP 29, https://doi.org/10.6028/NIST.CSWP.29

@@ -1,8 +1,8 @@
 ---
 type: Profile
 title: 'Tier 1: Partial'
-description: Risk management is ad hoc; limited awareness of cybersecurity risk at
-  the organizational level; no established processes.
+description: Organizational cybersecurity risk management practices are informal,
+  reactive, and ad hoc with limited awareness.
 category: profile
 tags:
 - nist-csf
@@ -30,19 +30,26 @@ x-nist-csf:
 
 # Summary
 
-**Tier 1: Partial** characterizes the degree of rigor and sophistication in an organization's cybersecurity risk management practices[^nist-cswp-29].
+**Tier 1 (Partial)** represents an ad hoc, reactive level of cybersecurity risk management under NIST Cybersecurity Framework 2.0[^nist-cswp-29].
 
-Risk management is ad hoc; limited awareness of cybersecurity risk at the organizational level; no established processes.
+At Tier 1, an organization typically lacks formal processes, operates in reactive mode, and does not systematically prioritize cybersecurity investments based on enterprise mission impact.
 
-# Characteristics
+# Tier Characteristics across Key Dimensions
 
-CSF Tiers characterize an organization's cybersecurity risk governance and management practices:
-- Risk Management Process
-- Integrated Risk Management Program
-- External Participation
+| Dimension | Tier 1 Operational Characteristics |
+| :--- | :--- |
+| **Risk Management Process** | Organizational cybersecurity risk management practices are not formalized, and risk is managed in an ad hoc and sometimes reactive manner. Prioritization of cybersecurity activities is not directly informed by organizational risk objectives or threat environments. |
+| **Integrated Risk Management Program** | There is limited awareness of cybersecurity risk at the organizational level. An organization-wide approach to managing cybersecurity risk has not been established. Risk information is shared informally on a case-by-case basis. |
+| **External Participation** | The organization possesses little awareness of supply-chain cybersecurity risks. It does not collaborate with or receive cyber threat intelligence from external partners, sharing information only reactively upon security incidents. |
+
+# Guidance for Progression
+To advance from Tier 1 to Tier 2 (Risk Informed), the organization should:
+1. Define approved risk management policies and assign executive accountability.
+2. Formally catalog sensitive digital assets and third-party dependencies.
+3. Establish regular threat intelligence sharing channels with peers and national CSIRTs.
 
 # Related concepts
-
 - [Tiers Index](index.md)
-
+- [Tier 2: Risk-Informed](tier-2-risk-informed.md)
+- [NIST CSF 2.0 Framework Overview](../../framework/index.md)
 [^nist-cswp-29]: National Institute of Standards and Technology, The NIST Cybersecurity Framework (CSF) 2.0, NIST CSWP 29, https://doi.org/10.6028/NIST.CSWP.29

@@ -1,8 +1,8 @@
 ---
 type: Profile
-title: 'Tier 2: Risk Informed'
-description: Risk management practices are approved by management but may not be established
-  organization-wide; awareness exists but consistent practice is developing.
+title: 'Tier 2: Risk-Informed'
+description: Risk management practices are approved by management but not established
+  as an organization-wide policy.
 category: profile
 tags:
 - nist-csf
@@ -30,19 +30,18 @@ x-nist-csf:
 
 # Summary
 
-**Tier 2: Risk Informed** characterizes the degree of rigor and sophistication in an organization's cybersecurity risk management practices[^nist-cswp-29].
+**Tier 2 (Risk-Informed)** describes an organization where cybersecurity awareness exists and risk management practices are approved by management, but not yet implemented across the enterprise as consistent, repeatable policy[^nist-cswp-29].
 
-Risk management practices are approved by management but may not be established organization-wide; awareness exists but consistent practice is developing.
+# Tier Characteristics across Key Dimensions
 
-# Characteristics
-
-CSF Tiers characterize an organization's cybersecurity risk governance and management practices:
-- Risk Management Process
-- Integrated Risk Management Program
-- External Participation
+| Dimension | Tier 2 Operational Characteristics |
+| :--- | :--- |
+| **Risk Management Process** | Management approves risk management practices, but they may not be established as organizational-wide policy. Priorities are directly informed by business risk objectives, threat awareness, and operational requirements. |
+| **Integrated Risk Management Program** | There is an awareness of cybersecurity risk at the organizational level, but an organization-wide approach to managing cybersecurity risk has not been fully institutionalized. Consideration of cybersecurity in business decisions is emerging but inconsistent. |
+| **External Participation** | The organization understands cyber risks associated with its supply chain and communicates with external partners informally. Threat intelligence is ingested, but dissemination across operational units remains siloed. |
 
 # Related concepts
-
-- [Tiers Index](index.md)
-
+- [Tier 1: Partial](tier-1-partial.md)
+- [Tier 3: Repeatable](tier-3-repeatable.md)
+- [NIST CSF 2.0 Framework Overview](../../framework/index.md)
 [^nist-cswp-29]: National Institute of Standards and Technology, The NIST Cybersecurity Framework (CSF) 2.0, NIST CSWP 29, https://doi.org/10.6028/NIST.CSWP.29

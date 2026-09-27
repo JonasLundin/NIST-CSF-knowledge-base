@@ -1,6 +1,6 @@
 ---
 type: Outcome
-title: 'GV: Govern'
+title: 'Function: Govern (GV)'
 description: The organization's cybersecurity risk management strategy, expectations,
   and policy are established, communicated, and monitored.
 category: outcome
@@ -30,27 +30,44 @@ x-nist-csf:
 
 # Summary
 
-Function **GV (Govern)** of the NIST Cybersecurity Framework (CSF) 2.0[^nist-cswp-29].
+**Govern (GV)** is the foundational cross-cutting function introduced in the **NIST Cybersecurity Framework (CSF) 2.0**[^nist-cswp-29].
 
-The organization's cybersecurity risk management strategy, expectations, and policy are established, communicated, and monitored.
+Positioned at the core of the framework, Govern emphasizes that cybersecurity is a major source of enterprise risk—alongside financial, legal, and operational risks—requiring direct leadership oversight and senior executive governance.
 
-# Purpose
+# Architectural Model: Govern at the Center
 
-The Govern function provides high-level outcomes to organize cybersecurity capabilities and manage risk across the lifecycle.
+```
+                           +------------------+
+                           |   GOVERN (GV)    |
+                           | Strategy, Policy |
+                           |    & Oversight   |
+                           +------------------+
+                             /     |     |                                 /      |     |                                 v       v     v       v
+                     +---------+ +---------+ +---------+
+                     |IDENTIFY | | PROTECT | | DETECT  |
+                     |  (ID)   | |  (PR)   | |  (DE)   |
+                     +---------+ +---------+ +---------+
+                            \      |     |      /
+                             \     |     |     /
+                              v    v     v    v
+                           +---------+ +---------+
+                           | RESPOND | | RECOVER |
+                           |  (RS)   | |  (RC)   |
+                           +---------+ +---------+
+```
 
-# Categories
+# Categories Organized Under Govern
 
-Categories organized under GV:
-- [GV.OC: Organizational Context](../categories/gv-oc.md): The circumstances - mission, stakeholder expectations, dependencies, and legal, regulatory, and contractual requirements - surrounding the organization's cybersecurity risk management decisions are understood
-- [GV.RM: Risk Management Strategy](../categories/gv-rm.md): The organization's priorities, constraints, risk tolerance and appetite statements, and assumptions are established, communicated, and used to support operational risk decisions
-- [GV.RR: Roles, Responsibilities, and Authorities](../categories/gv-rr.md): Cybersecurity roles, responsibilities, and authorities to foster accountability, performance assessment, and continuous improvement are established and communicated
-- [GV.PO: Policy](../categories/gv-po.md): Organizational cybersecurity policy is established, communicated, and enforced
-- [GV.OV: Oversight](../categories/gv-ov.md): Results of organization-wide cybersecurity risk management activities and performance are used to inform, improve, and adjust the risk management strategy
-- [GV.SC: Cybersecurity Supply Chain Risk Management](../categories/gv-sc.md): Cyber supply chain risk management processes are identified, established, managed, monitored, and improved by organizational stakeholders
+The Govern function encompasses 6 essential categories:
+1. **[GV.OC: Organizational Context](../categories/gv-oc.md)**: Understanding missions, stakeholder expectations, legal mandates, and supply chain dependencies.
+2. **[GV.RM: Risk Management Strategy](../categories/gv-rm.md)**: Establishing enterprise priorities, constraints, risk tolerance, and appetite statements.
+3. **[GV.RR: Roles, Responsibilities, and Authorities](../categories/gv-rr.md)**: Defining accountability, resource allocation, and continuous performance review.
+4. **[GV.PO: Policy](../categories/gv-po.md)**: Authoring, communicating, and enforcing mandatory cybersecurity policies.
+5. **[GV.OV: Oversight](../categories/gv-ov.md)**: Senior executive and board-level monitoring of cybersecurity performance.
+6. **[GV.SC: Cybersecurity Supply Chain Risk Management](../categories/gv-sc.md)**: Identifying, managing, and improving third-party cyber supply chain relationships.
 
 # Related concepts
-
-- [Framework Overview](../index.md)
-- [Functions Index](index.md)
-
+- [Function: Identify (ID)](identify.md)
+- [Function: Protect (PR)](protect.md)
+- [NIST CSF 2.0 Framework Overview](../index.md)
 [^nist-cswp-29]: National Institute of Standards and Technology, The NIST Cybersecurity Framework (CSF) 2.0, NIST CSWP 29, https://doi.org/10.6028/NIST.CSWP.29
