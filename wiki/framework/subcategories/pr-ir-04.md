@@ -12,7 +12,7 @@ tags:
 - csf-2-0
 status: draft
 generated:
-  by: agent:antigravity
+  by: manual-curation
   at: '2026-09-27T00:00:00Z'
 stale_after: '2027-12-31T00:00:00Z'
 sources:
@@ -28,6 +28,7 @@ x-nist-csf:
   provision: Subcategory PR.IR-04
   checked_at: '2026-09-27T00:00:00Z'
 ---
+
 
 # Summary
 
@@ -49,4 +50,4 @@ Ex2: Forecast future needs, and scale resources accordingly
 - [Function PR (Protect)](../functions/protect.md)
 - [Subcategories Index](index.md)
 
-[^nist-cswp-29]: National Institute of Standards and Technology, The NIST Cybersecurity Framework (CSF) 2.0, NIST CSWP 29, https://doi.org/10.6028/NIST.CSWP.29
+[^nist-cswp-29]: National Institute of Standards and Technology (NIST), The NIST Cybersecurity Framework (CSF) 2.0, https://doi.org/10.6028/NIST.CSWP.29

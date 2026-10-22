@@ -13,7 +13,7 @@ tags:
 - csf-2-0
 status: draft
 generated:
-  by: agent:antigravity
+  by: manual-curation
   at: '2026-09-27T00:00:00Z'
 stale_after: '2027-12-31T00:00:00Z'
 sources:
@@ -30,6 +30,7 @@ x-nist-csf:
   checked_at: '2026-09-27T00:00:00Z'
 ---
 
+
 # Summary
 
 Subcategory **ID.RA-09** of the NIST Cybersecurity Framework (CSF) 2.0[^nist-cswp-29]:
@@ -42,7 +43,6 @@ Part of Category [ID.RA](../categories/id-ra.md) under Function [ID (Identify)](
 # Implementation guidance
 
 Ex1: Assess the authenticity and cybersecurity of critical technology products and services prior to acquisition and use
-3rd: 3rd Party Risk
 
 # Related concepts
 
@@ -50,4 +50,4 @@ Ex1: Assess the authenticity and cybersecurity of critical technology products a
 - [Function ID (Identify)](../functions/identify.md)
 - [Subcategories Index](index.md)
 
-[^nist-cswp-29]: National Institute of Standards and Technology, The NIST Cybersecurity Framework (CSF) 2.0, NIST CSWP 29, https://doi.org/10.6028/NIST.CSWP.29
+[^nist-cswp-29]: National Institute of Standards and Technology (NIST), The NIST Cybersecurity Framework (CSF) 2.0, https://doi.org/10.6028/NIST.CSWP.29

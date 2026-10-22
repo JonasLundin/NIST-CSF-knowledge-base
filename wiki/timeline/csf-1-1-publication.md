@@ -1,44 +1,44 @@
 ---
 type: Timeline
-title: NIST CSF 1.1 Publication
-description: Release of NIST Cybersecurity Framework 1.1 updating supply chain risk
-  management and authentication guidance.
+title: NIST CSF 1.1 Publication (2018-04-16, Superseded)
+description: Publication of NIST CSF 1.1 (NIST CSWP 6), superseded by CSF 2.0.
 category: timeline
 tags:
 - nist-csf
 - timeline
 - csf-1-1-publication
-status: draft
+status: deprecated
 generated:
   by: agent:antigravity
   at: '2026-09-27T00:00:00Z'
 stale_after: '2027-12-31T00:00:00Z'
 sources:
-- id: nist-cswp-29
-  resource: https://doi.org/10.6028/NIST.CSWP.29
-  title: The NIST Cybersecurity Framework (CSF) 2.0
+- id: nist-cswp-6
+  resource: https://doi.org/10.6028/NIST.CSWP.6
+  title: Framework for Improving Critical Infrastructure Cybersecurity, Version 1.1
   author: National Institute of Standards and Technology (NIST)
-  last_modified: '2024-02-26T00:00:00Z'
+  last_modified: '2018-04-16T00:00:00Z'
 x-nist-csf:
   jurisdiction: US
   authority_level: voluntary
   instrument_status: in_force
-  provision: 'Publication: 2018-04-16'
+  provision: Effective 2018-04-16
   checked_at: '2026-09-27T00:00:00Z'
 ---
 
 # Summary
 
-**NIST CSF 1.1 Publication** represents a key milestone in the lifecycle of the NIST Cybersecurity Framework[^nist-cswp-29].
+On **16 April 2018**, NIST published Version 1.1 of the Cybersecurity Framework (NIST CSWP 6), introducing supply chain risk management refinements and subcategories[^nist-cswp-6].
 
-Release of NIST Cybersecurity Framework 1.1 updating supply chain risk management and authentication guidance.
+> [!NOTE]
+> **Superseded**: NIST CSF 1.1 was superseded by **NIST CSF 2.0** on 26 February 2024.
 
-# Significance
-
-Traces the governance, evolution, and regulatory context of the framework over time.
+# Milestone Details
+- **Publication Date**: **16 April 2018**
+- **Citation**: NIST Cybersecurity White Paper CSWP 6 (doi:10.6028/NIST.CSWP.6).
 
 # Related concepts
-
 - [Timeline Index](index.md)
+- [CSF 2.0 Publication](csf-2-0-publication.md)
 
-[^nist-cswp-29]: National Institute of Standards and Technology, The NIST Cybersecurity Framework (CSF) 2.0, NIST CSWP 29, https://doi.org/10.6028/NIST.CSWP.29
+[^nist-cswp-6]: NIST, NIST CSWP 6 Cybersecurity Framework Version 1.1, https://doi.org/10.6028/NIST.CSWP.6

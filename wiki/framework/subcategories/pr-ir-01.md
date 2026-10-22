@@ -13,7 +13,7 @@ tags:
 - csf-2-0
 status: draft
 generated:
-  by: agent:antigravity
+  by: manual-curation
   at: '2026-09-27T00:00:00Z'
 stale_after: '2027-12-31T00:00:00Z'
 sources:
@@ -30,6 +30,7 @@ x-nist-csf:
   checked_at: '2026-09-27T00:00:00Z'
 ---
 
+
 # Summary
 
 Subcategory **PR.IR-01** of the NIST Cybersecurity Framework (CSF) 2.0[^nist-cswp-29]:
@@ -41,8 +42,6 @@ Part of Category [PR.IR](../categories/pr-ir.md) under Function [PR (Protect)](.
 
 # Implementation guidance
 
-1st: 1st Party Risk
-3rd: 3rd Party Risk
 Ex1: Logically segment organization networks and cloud-based platforms according to trust boundaries and platform types (e.g., IT, IoT, OT, mobile, guests), and permit required communications only between segments
 Ex2: Logically segment organization networks from external networks, and permit only necessary communications to enter the organization's networks from the external networks
 Ex3: Implement zero trust architectures to restrict network access to each resource to the minimum necessary
@@ -54,4 +53,4 @@ Ex4: Check the cyber health of endpoints before allowing them to access and use 
 - [Function PR (Protect)](../functions/protect.md)
 - [Subcategories Index](index.md)
 
-[^nist-cswp-29]: National Institute of Standards and Technology, The NIST Cybersecurity Framework (CSF) 2.0, NIST CSWP 29, https://doi.org/10.6028/NIST.CSWP.29
+[^nist-cswp-29]: National Institute of Standards and Technology (NIST), The NIST Cybersecurity Framework (CSF) 2.0, https://doi.org/10.6028/NIST.CSWP.29

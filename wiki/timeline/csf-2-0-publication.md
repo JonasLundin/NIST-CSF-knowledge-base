@@ -23,22 +23,20 @@ x-nist-csf:
   jurisdiction: US
   authority_level: voluntary
   instrument_status: in_force
-  provision: 'Publication: 2024-02-26'
+  provision: Effective 2024-02-26
   checked_at: '2026-09-27T00:00:00Z'
 ---
 
 # Summary
 
-**NIST CSF 2.0 Official Publication** represents a key milestone in the lifecycle of the NIST Cybersecurity Framework[^nist-cswp-29].
+On **26 February 2024**, NIST released the final publication of **NIST CSF 2.0 (NIST CSWP 29)**, expanding the framework's scope from critical infrastructure to all organizations and introducing the GOVERN Function[^nist-cswp-29].
 
-Release of NIST Cybersecurity White Paper 29 introducing the Govern function and expanding scope beyond critical infrastructure.
-
-# Significance
-
-Traces the governance, evolution, and regulatory context of the framework over time.
+# Milestone Details
+- **Effective Date**: **26 February 2024**
+- **Core Innovations**: Addition of Govern function, explicit supply chain integration, implementation examples, and Quick Start Guides.
 
 # Related concepts
-
 - [Timeline Index](index.md)
+- [Govern Function](../framework/functions/govern.md)
 
-[^nist-cswp-29]: National Institute of Standards and Technology, The NIST Cybersecurity Framework (CSF) 2.0, NIST CSWP 29, https://doi.org/10.6028/NIST.CSWP.29
+[^nist-cswp-29]: National Institute of Standards and Technology (NIST), The NIST Cybersecurity Framework (CSF) 2.0, https://doi.org/10.6028/NIST.CSWP.29

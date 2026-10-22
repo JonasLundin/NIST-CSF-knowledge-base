@@ -13,7 +13,7 @@ tags:
 - csf-2-0
 status: draft
 generated:
-  by: agent:antigravity
+  by: manual-curation
   at: '2026-09-27T00:00:00Z'
 stale_after: '2027-12-31T00:00:00Z'
 sources:
@@ -29,6 +29,7 @@ x-nist-csf:
   provision: Subcategory GV.SC-02
   checked_at: '2026-09-27T00:00:00Z'
 ---
+
 
 # Summary
 
@@ -49,7 +50,6 @@ Ex5: Document performance goals for personnel with cybersecurity risk management
 Ex6: Develop roles and responsibilities for suppliers, customers, and business partners to address shared responsibilities for applicable cybersecurity risks, and integrate them into organizational policies and applicable third-party agreements
 Ex7: Internally communicate cybersecurity supply chain risk management roles and responsibilities for third parties
 Ex8: Establish rules and protocols for information sharing and reporting processes between the organization and its suppliers
-3rd: 3rd Party Risk
 
 # Related concepts
 
@@ -57,4 +57,4 @@ Ex8: Establish rules and protocols for information sharing and reporting process
 - [Function GV (Govern)](../functions/govern.md)
 - [Subcategories Index](index.md)
 
-[^nist-cswp-29]: National Institute of Standards and Technology, The NIST Cybersecurity Framework (CSF) 2.0, NIST CSWP 29, https://doi.org/10.6028/NIST.CSWP.29
+[^nist-cswp-29]: National Institute of Standards and Technology (NIST), The NIST Cybersecurity Framework (CSF) 2.0, https://doi.org/10.6028/NIST.CSWP.29

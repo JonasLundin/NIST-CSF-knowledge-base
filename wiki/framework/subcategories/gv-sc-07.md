@@ -14,7 +14,7 @@ tags:
 - csf-2-0
 status: draft
 generated:
-  by: agent:antigravity
+  by: manual-curation
   at: '2026-09-27T00:00:00Z'
 stale_after: '2027-12-31T00:00:00Z'
 sources:
@@ -30,6 +30,7 @@ x-nist-csf:
   provision: Subcategory GV.SC-07
   checked_at: '2026-09-27T00:00:00Z'
 ---
+
 
 # Summary
 
@@ -47,7 +48,6 @@ Ex2: Evaluate third parties' evidence of compliance with contractual cybersecuri
 Ex3: Monitor critical suppliers to ensure that they are fulfilling their security obligations throughout the supplier relationship lifecycle using a variety of methods and techniques, such as inspections, audits, tests, or other forms of evaluation
 Ex4: Monitor critical suppliers, services, and products for changes to their risk profiles, and reevaluate supplier criticality and risk impact accordingly
 Ex5: Plan for unexpected supplier and supply chain-related interruptions to ensure business continuity
-3rd: 3rd Party Risk
 
 # Related concepts
 
@@ -55,4 +55,4 @@ Ex5: Plan for unexpected supplier and supply chain-related interruptions to ensu
 - [Function GV (Govern)](../functions/govern.md)
 - [Subcategories Index](index.md)
 
-[^nist-cswp-29]: National Institute of Standards and Technology, The NIST Cybersecurity Framework (CSF) 2.0, NIST CSWP 29, https://doi.org/10.6028/NIST.CSWP.29
+[^nist-cswp-29]: National Institute of Standards and Technology (NIST), The NIST Cybersecurity Framework (CSF) 2.0, https://doi.org/10.6028/NIST.CSWP.29

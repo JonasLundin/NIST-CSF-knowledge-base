@@ -12,7 +12,7 @@ tags:
 - csf-2-0
 status: draft
 generated:
-  by: agent:antigravity
+  by: manual-curation
   at: '2026-09-27T00:00:00Z'
 stale_after: '2027-12-31T00:00:00Z'
 sources:
@@ -29,6 +29,7 @@ x-nist-csf:
   checked_at: '2026-09-27T00:00:00Z'
 ---
 
+
 # Summary
 
 Subcategory **PR.DS-10** of the NIST Cybersecurity Framework (CSF) 2.0[^nist-cswp-29]:
@@ -40,7 +41,6 @@ Part of Category [PR.DS](../categories/pr-ds.md) under Function [PR (Protect)](.
 
 # Implementation guidance
 
-1st: 1st Party Risk
 Ex1: Remove data that must remain confidential (e.g., from processors and memory) as soon as it is no longer needed
 Ex2: Protect data in use from access by other users and processes of the same platform
 
@@ -50,4 +50,4 @@ Ex2: Protect data in use from access by other users and processes of the same pl
 - [Function PR (Protect)](../functions/protect.md)
 - [Subcategories Index](index.md)
 
-[^nist-cswp-29]: National Institute of Standards and Technology, The NIST Cybersecurity Framework (CSF) 2.0, NIST CSWP 29, https://doi.org/10.6028/NIST.CSWP.29
+[^nist-cswp-29]: National Institute of Standards and Technology (NIST), The NIST Cybersecurity Framework (CSF) 2.0, https://doi.org/10.6028/NIST.CSWP.29

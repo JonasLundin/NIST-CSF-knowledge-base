@@ -13,7 +13,7 @@ tags:
 - csf-2-0
 status: draft
 generated:
-  by: agent:antigravity
+  by: manual-curation
   at: '2026-09-27T00:00:00Z'
 stale_after: '2027-12-31T00:00:00Z'
 sources:
@@ -30,6 +30,7 @@ x-nist-csf:
   checked_at: '2026-09-27T00:00:00Z'
 ---
 
+
 # Summary
 
 Subcategory **PR.AA-06** of the NIST Cybersecurity Framework (CSF) 2.0[^nist-cswp-29]:
@@ -41,8 +42,6 @@ Part of Category [PR.AA](../categories/pr-aa.md) under Function [PR (Protect)](.
 
 # Implementation guidance
 
-1st: 1st Party Risk
-3rd: 3rd Party Risk
 Ex1: Use security guards, security cameras, locked entrances, alarm systems, and other physical controls to monitor facilities and restrict access
 Ex2: Employ additional physical security controls for areas that contain high-risk assets
 Ex3: Escort guests, vendors, and other third parties within areas that contain business-critical assets
@@ -53,4 +52,4 @@ Ex3: Escort guests, vendors, and other third parties within areas that contain b
 - [Function PR (Protect)](../functions/protect.md)
 - [Subcategories Index](index.md)
 
-[^nist-cswp-29]: National Institute of Standards and Technology, The NIST Cybersecurity Framework (CSF) 2.0, NIST CSWP 29, https://doi.org/10.6028/NIST.CSWP.29
+[^nist-cswp-29]: National Institute of Standards and Technology (NIST), The NIST Cybersecurity Framework (CSF) 2.0, https://doi.org/10.6028/NIST.CSWP.29

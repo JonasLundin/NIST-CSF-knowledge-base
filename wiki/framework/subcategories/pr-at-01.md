@@ -13,7 +13,7 @@ tags:
 - csf-2-0
 status: draft
 generated:
-  by: agent:antigravity
+  by: manual-curation
   at: '2026-09-27T00:00:00Z'
 stale_after: '2027-12-31T00:00:00Z'
 sources:
@@ -30,6 +30,7 @@ x-nist-csf:
   checked_at: '2026-09-27T00:00:00Z'
 ---
 
+
 # Summary
 
 Subcategory **PR.AT-01** of the NIST Cybersecurity Framework (CSF) 2.0[^nist-cswp-29]:
@@ -41,7 +42,6 @@ Part of Category [PR.AT](../categories/pr-at.md) under Function [PR (Protect)](.
 
 # Implementation guidance
 
-1st: 1st Party Risk
 Ex1: Provide basic cybersecurity awareness and training to employees, contractors, partners, suppliers, and all other users of the organization's non-public resources
 Ex2: Train personnel to recognize social engineering attempts and other common attacks, report attacks and suspicious activity, comply with acceptable use policies, and perform basic cyber hygiene tasks (e.g., patching software, choosing passwords, protecting credentials)
 Ex3: Explain the consequences of cybersecurity policy violations, both to individual users and the organization as a whole
@@ -54,4 +54,4 @@ Ex5: Require annual refreshers to reinforce existing practices and introduce new
 - [Function PR (Protect)](../functions/protect.md)
 - [Subcategories Index](index.md)
 
-[^nist-cswp-29]: National Institute of Standards and Technology, The NIST Cybersecurity Framework (CSF) 2.0, NIST CSWP 29, https://doi.org/10.6028/NIST.CSWP.29
+[^nist-cswp-29]: National Institute of Standards and Technology (NIST), The NIST Cybersecurity Framework (CSF) 2.0, https://doi.org/10.6028/NIST.CSWP.29

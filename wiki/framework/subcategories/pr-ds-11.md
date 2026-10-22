@@ -12,7 +12,7 @@ tags:
 - csf-2-0
 status: draft
 generated:
-  by: agent:antigravity
+  by: manual-curation
   at: '2026-09-27T00:00:00Z'
 stale_after: '2027-12-31T00:00:00Z'
 sources:
@@ -29,6 +29,7 @@ x-nist-csf:
   checked_at: '2026-09-27T00:00:00Z'
 ---
 
+
 # Summary
 
 Subcategory **PR.DS-11** of the NIST Cybersecurity Framework (CSF) 2.0[^nist-cswp-29]:
@@ -40,7 +41,6 @@ Part of Category [PR.DS](../categories/pr-ds.md) under Function [PR (Protect)](.
 
 # Implementation guidance
 
-1st: 1st Party Risk
 Ex1: Continuously back up critical data in near-real-time, and back up other data frequently at agreed-upon schedules
 Ex2: Test backups and restores for all types of data sources at least annually
 Ex3: Securely store some backups offline and offsite so that an incident or disaster will not damage them
@@ -52,4 +52,4 @@ Ex4: Enforce geographic separation and geolocation restrictions for data backup 
 - [Function PR (Protect)](../functions/protect.md)
 - [Subcategories Index](index.md)
 
-[^nist-cswp-29]: National Institute of Standards and Technology, The NIST Cybersecurity Framework (CSF) 2.0, NIST CSWP 29, https://doi.org/10.6028/NIST.CSWP.29
+[^nist-cswp-29]: National Institute of Standards and Technology (NIST), The NIST Cybersecurity Framework (CSF) 2.0, https://doi.org/10.6028/NIST.CSWP.29

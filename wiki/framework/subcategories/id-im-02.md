@@ -13,7 +13,7 @@ tags:
 - csf-2-0
 status: draft
 generated:
-  by: agent:antigravity
+  by: manual-curation
   at: '2026-09-27T00:00:00Z'
 stale_after: '2027-12-31T00:00:00Z'
 sources:
@@ -30,6 +30,7 @@ x-nist-csf:
   checked_at: '2026-09-27T00:00:00Z'
 ---
 
+
 # Summary
 
 Subcategory **ID.IM-02** of the NIST Cybersecurity Framework (CSF) 2.0[^nist-cswp-29]:
@@ -41,8 +42,6 @@ Part of Category [ID.IM](../categories/id-im.md) under Function [ID (Identify)](
 
 # Implementation guidance
 
-1st: 1st Party Risk
-3rd: 3rd Party Risk
 Ex1: Identify improvements for future incident response activities based on findings from incident response assessments (e.g., tabletop exercises and simulations, tests, internal reviews, independent audits)
 Ex2: Identify improvements for future business continuity, disaster recovery, and incident response activities based on exercises performed in coordination with critical service providers and product suppliers
 Ex3: Involve internal stakeholders (e.g., senior executives, legal department, HR) in security tests and exercises as appropriate
@@ -56,4 +55,4 @@ Ex6: Collect and analyze performance metrics using security tools and services t
 - [Function ID (Identify)](../functions/identify.md)
 - [Subcategories Index](index.md)
 
-[^nist-cswp-29]: National Institute of Standards and Technology, The NIST Cybersecurity Framework (CSF) 2.0, NIST CSWP 29, https://doi.org/10.6028/NIST.CSWP.29
+[^nist-cswp-29]: National Institute of Standards and Technology (NIST), The NIST Cybersecurity Framework (CSF) 2.0, https://doi.org/10.6028/NIST.CSWP.29

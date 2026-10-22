@@ -13,7 +13,7 @@ tags:
 - csf-2-0
 status: draft
 generated:
-  by: agent:antigravity
+  by: manual-curation
   at: '2026-09-27T00:00:00Z'
 stale_after: '2027-12-31T00:00:00Z'
 sources:
@@ -29,6 +29,7 @@ x-nist-csf:
   provision: Subcategory GV.SC-10
   checked_at: '2026-09-27T00:00:00Z'
 ---
+
 
 # Summary
 
@@ -48,7 +49,6 @@ Ex4: Verify that assets containing the organization's data are returned or prope
 Ex5: Develop and execute a plan for terminating or transitioning supplier relationships that takes supply chain security risk and resiliency into account
 Ex6: Mitigate risks to data and systems created by supplier termination
 Ex7: Manage data leakage risks associated with supplier termination
-3rd: 3rd Party Risk
 
 # Related concepts
 
@@ -56,4 +56,4 @@ Ex7: Manage data leakage risks associated with supplier termination
 - [Function GV (Govern)](../functions/govern.md)
 - [Subcategories Index](index.md)
 
-[^nist-cswp-29]: National Institute of Standards and Technology, The NIST Cybersecurity Framework (CSF) 2.0, NIST CSWP 29, https://doi.org/10.6028/NIST.CSWP.29
+[^nist-cswp-29]: National Institute of Standards and Technology (NIST), The NIST Cybersecurity Framework (CSF) 2.0, https://doi.org/10.6028/NIST.CSWP.29

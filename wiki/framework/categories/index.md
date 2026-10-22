@@ -1,6 +1,6 @@
 # Categories
 
-One page per category, for example GV.OC or ID.AM.
+Navigation index for Categories.
 
 ## Concepts
 
@@ -26,3 +26,4 @@ One page per category, for example GV.OC or ID.AM.
 - [RS.CO: Incident Response Reporting and Communication](rs-co.md) — Response activities are coordinated with internal and external stakeholders as required by laws, regulations, or policies
 - [RS.MA: Incident Management](rs-ma.md) — Responses to detected cybersecurity incidents are managed
 - [RS.MI: Incident Mitigation](rs-mi.md) — Activities are performed to prevent expansion of an event and mitigate its effects
+

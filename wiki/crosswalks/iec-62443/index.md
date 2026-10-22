@@ -1,7 +1,8 @@
-# IEC 62443
+# Iec 62443
 
-Subcategory to IEC 62443 requirement identifiers only.
+Navigation index for Iec 62443.
 
 ## Concepts
 
-- [ISA/IEC 62443 Crosswalk](iec-62443-mapping.md) — Industrial automation and control systems (IACS) security standard crosswalk to CSF 2.0.
+- [IEC 62443 Industrial Cybersecurity Crosswalk](iec-62443-mapping.md) — Informative mapping between NIST CSF 2.0 Subcategories and IEC 62443 industrial automation and control systems security standards.
+

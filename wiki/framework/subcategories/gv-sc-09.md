@@ -14,7 +14,7 @@ tags:
 - csf-2-0
 status: draft
 generated:
-  by: agent:antigravity
+  by: manual-curation
   at: '2026-09-27T00:00:00Z'
 stale_after: '2027-12-31T00:00:00Z'
 sources:
@@ -30,6 +30,7 @@ x-nist-csf:
   provision: Subcategory GV.SC-09
   checked_at: '2026-09-27T00:00:00Z'
 ---
+
 
 # Summary
 
@@ -47,7 +48,6 @@ Ex2: Periodically provide risk reporting to leaders about how acquired component
 Ex3: Communicate regularly among cybersecurity risk managers and operations personnel about the need to acquire software patches, updates, and upgrades only from authenticated and trustworthy software providers
 Ex4: Review policies to ensure that they require approved supplier personnel to perform maintenance on supplier products
 Ex5: Policies and procedure require checking upgrades to critical hardware for unauthorized changes
-3rd: 3rd Party Risk
 
 # Related concepts
 
@@ -55,4 +55,4 @@ Ex5: Policies and procedure require checking upgrades to critical hardware for u
 - [Function GV (Govern)](../functions/govern.md)
 - [Subcategories Index](index.md)
 
-[^nist-cswp-29]: National Institute of Standards and Technology, The NIST Cybersecurity Framework (CSF) 2.0, NIST CSWP 29, https://doi.org/10.6028/NIST.CSWP.29
+[^nist-cswp-29]: National Institute of Standards and Technology (NIST), The NIST Cybersecurity Framework (CSF) 2.0, https://doi.org/10.6028/NIST.CSWP.29

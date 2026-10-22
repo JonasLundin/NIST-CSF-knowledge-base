@@ -12,7 +12,7 @@ tags:
 - csf-2-0
 status: draft
 generated:
-  by: agent:antigravity
+  by: manual-curation
   at: '2026-09-27T00:00:00Z'
 stale_after: '2027-12-31T00:00:00Z'
 sources:
@@ -29,6 +29,7 @@ x-nist-csf:
   checked_at: '2026-09-27T00:00:00Z'
 ---
 
+
 # Summary
 
 Subcategory **PR.PS-03** of the NIST Cybersecurity Framework (CSF) 2.0[^nist-cswp-29]:
@@ -40,8 +41,6 @@ Part of Category [PR.PS](../categories/pr-ps.md) under Function [PR (Protect)](.
 
 # Implementation guidance
 
-1st: 1st Party Risk
-3rd: 3rd Party Risk
 Ex1: Replace hardware when it lacks needed security capabilities or when it cannot support software with needed security capabilities
 Ex2: Define and implement plans for hardware end-of-life maintenance support and obsolescence
 Ex3: Perform hardware disposal in a secure, responsible, and auditable manner
@@ -52,4 +51,4 @@ Ex3: Perform hardware disposal in a secure, responsible, and auditable manner
 - [Function PR (Protect)](../functions/protect.md)
 - [Subcategories Index](index.md)
 
-[^nist-cswp-29]: National Institute of Standards and Technology, The NIST Cybersecurity Framework (CSF) 2.0, NIST CSWP 29, https://doi.org/10.6028/NIST.CSWP.29
+[^nist-cswp-29]: National Institute of Standards and Technology (NIST), The NIST Cybersecurity Framework (CSF) 2.0, https://doi.org/10.6028/NIST.CSWP.29

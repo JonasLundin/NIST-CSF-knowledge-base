@@ -13,7 +13,7 @@ tags:
 - csf-2-0
 status: draft
 generated:
-  by: agent:antigravity
+  by: manual-curation
   at: '2026-09-27T00:00:00Z'
 stale_after: '2027-12-31T00:00:00Z'
 sources:
@@ -30,6 +30,7 @@ x-nist-csf:
   checked_at: '2026-09-27T00:00:00Z'
 ---
 
+
 # Summary
 
 Subcategory **ID.AM-05** of the NIST Cybersecurity Framework (CSF) 2.0[^nist-cswp-29]:
@@ -41,7 +42,6 @@ Part of Category [ID.AM](../categories/id-am.md) under Function [ID (Identify)](
 
 # Implementation guidance
 
-1st: 1st Party Risk
 Ex1: Define criteria for prioritizing each class of assets
 Ex2: Apply the prioritization criteria to assets
 Ex3: Track the asset priorities and update them periodically or when significant changes to the organization occur
@@ -52,4 +52,4 @@ Ex3: Track the asset priorities and update them periodically or when significant
 - [Function ID (Identify)](../functions/identify.md)
 - [Subcategories Index](index.md)
 
-[^nist-cswp-29]: National Institute of Standards and Technology, The NIST Cybersecurity Framework (CSF) 2.0, NIST CSWP 29, https://doi.org/10.6028/NIST.CSWP.29
+[^nist-cswp-29]: National Institute of Standards and Technology (NIST), The NIST Cybersecurity Framework (CSF) 2.0, https://doi.org/10.6028/NIST.CSWP.29

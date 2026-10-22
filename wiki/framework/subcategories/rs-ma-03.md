@@ -12,7 +12,7 @@ tags:
 - csf-2-0
 status: draft
 generated:
-  by: agent:antigravity
+  by: manual-curation
   at: '2026-09-27T00:00:00Z'
 stale_after: '2027-12-31T00:00:00Z'
 sources:
@@ -29,6 +29,7 @@ x-nist-csf:
   checked_at: '2026-09-27T00:00:00Z'
 ---
 
+
 # Summary
 
 Subcategory **RS.MA-03** of the NIST Cybersecurity Framework (CSF) 2.0[^nist-cswp-29]:
@@ -40,7 +41,6 @@ Part of Category [RS.MA](../categories/rs-ma.md) under Function [RS (Respond)](.
 
 # Implementation guidance
 
-1st: 1st Party Risk
 Ex1: Further review and categorize incidents based on the type of incident (e.g., data breach, ransomware, DDoS, account compromise)
 Ex2: Prioritize incidents based on their scope, likely impact, and time-critical nature
 Ex3: Select incident response strategies for active incidents by balancing the need to quickly recover from an incident with the need to observe the attacker or conduct a more thorough investigation
@@ -51,4 +51,4 @@ Ex3: Select incident response strategies for active incidents by balancing the n
 - [Function RS (Respond)](../functions/respond.md)
 - [Subcategories Index](index.md)
 
-[^nist-cswp-29]: National Institute of Standards and Technology, The NIST Cybersecurity Framework (CSF) 2.0, NIST CSWP 29, https://doi.org/10.6028/NIST.CSWP.29
+[^nist-cswp-29]: National Institute of Standards and Technology (NIST), The NIST Cybersecurity Framework (CSF) 2.0, https://doi.org/10.6028/NIST.CSWP.29
